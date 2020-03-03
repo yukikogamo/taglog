@@ -1,0 +1,40 @@
+PODS:
+  - NCMB (3.0.2)
+  - SPAlert (2.0.26)
+  - SVProgressHUD (2.2.6)
+  - TransitionButton (0.5.2)
+
+DEPENDENCIES:
+  - NCMB (from `https://github.com/NIFCloud-mbaas/ncmb_ios.git`)
+  - SPAlert
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - TransitionButton
+
+SPEC REPOS:
+  trunk:
+    - SPAlert
+    - TransitionButton
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFCloud-mbaas/ncmb_ios.git
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: f5da92ffba66b58f4fb1a49e3b347d9ea8a101bc
+    :git: https://github.com/NIFCloud-mbaas/ncmb_ios.git
+  SVProgressHUD:
+    :commit: 4fdf3fdc8703fd9915dae33fc1363c604a06b24e
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  NCMB: 3657ef5064fa5884c812ae3c4db1e24071628933
+  SPAlert: 59689d38d4cb6f6c144b238ada1fae04446a4091
+  SVProgressHUD: 6ed134667e9ebb2f33679e8273cd48fd3fa349e5
+  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
+
+PODFILE CHECKSUM: 9badbfbaf789bdd52e90420afdfe683dd4db1c13
+
+COCOAPODS: 1.8.4
