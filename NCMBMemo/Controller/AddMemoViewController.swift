@@ -47,7 +47,7 @@ class AddMemoViewController: UIViewController {
     @IBAction func oishii() {
         number = number + 0.5
         
-        //oishiinum = oishiinum + 1
+    oishiinum = oishiinum + 1
         if oishiinum % 2 == 0{
             //通常の画像赤
             let image = UIImage(named: "button.png")
@@ -56,10 +56,10 @@ class AddMemoViewController: UIViewController {
             oishiibutton.setBackgroundImage(image, for: state)
             oishiinum = 0
         }else{
+            print("あ")
             //押されてる時の画像青
             let image = UIImage(named: "button2.png")
             let state = UIControl.State.normal
-
             oishiibutton.setBackgroundImage(image, for: state)
             oishiinum == oishiinum
         }
