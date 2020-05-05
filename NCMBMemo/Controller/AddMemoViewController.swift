@@ -47,7 +47,7 @@ class AddMemoViewController: UIViewController {
     @IBAction func oishii() {
         number = number + 0.5
         
-    oishiinum = oishiinum + 1
+        oishiinum = oishiinum + 1
         if oishiinum % 2 == 0{
             //通常の画像赤
             let image = UIImage(named: "button.png")
@@ -68,6 +68,8 @@ class AddMemoViewController: UIViewController {
     
     @IBAction func tanosii() {
         number = number + 1.0
+        
+        tanoshiinum = tanoshiinum + 1
         print("楽しいが押された")
         if tanoshiinum % 2 == 0{
                     //通常の画像赤
@@ -92,6 +94,8 @@ class AddMemoViewController: UIViewController {
     
     @IBAction func kanasii() {
         number = number - 0.5
+        
+        kanasiinum = kanasiinum + 1
         print("悲しいが押された")
         if kanasiinum % 2 == 0{
                     //通常の画像赤
@@ -117,6 +121,7 @@ class AddMemoViewController: UIViewController {
     @IBAction func uresii() {
         number = number + 0.8
         
+        uresiinum = uresiinum + 1
         print("うれしいが押された")
         if uresiinum % 2 == 0{
                     //通常の画像赤
@@ -141,6 +146,7 @@ class AddMemoViewController: UIViewController {
     @IBAction func turai() {
         number = number - 0.8
         
+        turainum = turainum + 1
         print("つらいが押された")
         if turainum % 2 == 0{
                     //通常の画像赤
@@ -165,6 +171,7 @@ class AddMemoViewController: UIViewController {
     @IBAction func samisii() {
         number = number - 1.0
         
+        samisiinum = samisiinum + 1
         print("さみしいが押された")
         if samisiinum % 2 == 0{
                     //通常の画像赤
@@ -189,6 +196,7 @@ class AddMemoViewController: UIViewController {
     @IBAction func omoroi() {
         number = number + 1.2
         
+        omoroinum = omoroinum + 1
         print("おもろいが押された")
         if omoroinum % 2 == 0{
                     //通常の画像赤
@@ -213,6 +221,7 @@ class AddMemoViewController: UIViewController {
     @IBAction func tukareta() {
         number = number - 0.5
         
+        tukaretanum = tukaretanum + 1
         print("つかれたが押された")
         if tukaretanum % 2 == 0{
                     //通常の画像赤
@@ -237,6 +246,7 @@ class AddMemoViewController: UIViewController {
     @IBAction func nemui() {
         number = number - 0.1
         
+        nemuinum = nemuinum + 1
         print("ねむいが押された")
         if nemuinum % 2 == 0{
                     //通常の画像赤
