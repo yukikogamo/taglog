@@ -7,141 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		027C7FA71AAA3C7BD9D865F65E91778B /* TransitionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AA69C493FE76A8633C217995CA0056 /* TransitionButton-dummy.m */; };
-		02B4B0B25E5505DFF432C9CC06150C54 /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 371AC55D74F25C64F6CCC0C1AE3967AA /* NCMBScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		027C7FA71AAA3C7BD9D865F65E91778B /* TransitionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F98E5149B1BD03ABEBAE6942A0265055 /* TransitionButton-dummy.m */; };
+		02B4B0B25E5505DFF432C9CC06150C54 /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBC5438A52824CF10A1FECA9CB814E /* NCMBScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		030625CE723FE86334D2186E6F59D3E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8549C9CB6FD8E582DD1B80188C18E /* Foundation.framework */; };
-		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 85460808E18F34A1B6B117FF412A4099 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DBA7CEE62B7F9ABD255138C509AB697 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = C80A2AD2867AAD8293EFB7B3A7476A50 /* NSDataBase64Encode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0DEBDA83AD44D333BB2BDF2DF1C40545 /* NCMBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = A91324C6496C6F59670E4A4FEE6AB660 /* NCMBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		133E10019DBB0634FBA4EDC0A452560A /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B19CE6001E1FC5EC902F7A0B9C6F6 /* NCMBCloseImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		16DE34B66EC956DF0D01375BBE8408CC /* NCMB.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE5F1DD3605EB094F61525C4045CA2E /* NCMB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B68CF4A7D6312EDC0B57698C645610B /* NCMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4348417DD7592881B0CE65C688A5C27E /* NCMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CD30B7E10E79B7A8A9735C060EAF685 /* NCMBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 64396A9F535191B3F68830EBFD3EEBF0 /* NCMBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E2F694A78E1E9F56D150C12943E843C /* NCMBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 0743B62A3947A0265983F7D47C6131AD /* NCMBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2105C04A75D22BE1EC49A6C7BCDF1B90 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A864D81554AB00E6D32DDEAB2E471D7 /* NCMBDateFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		233B31A6CDED4A72A6C92D27033B465E /* NCMBIncrementOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 529DF158CC19BF1F3260A4A183F4AC18 /* NCMBIncrementOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		235679ED5482BC7C7A5C184E9E8FD2D3 /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A8362F6399B91556AAAABE80B017964D /* NCMBURLSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9F71DDA77DE87A0B9E979498E3CD74E2 /* SVProgressHUD.bundle */; };
-		2D8A0319E29347C130D01CEBA5DDBA64 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB3EE392004BEFA45AEE14071669EA3 /* SubClassHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2E4E1F3D3E97859F8A0FBF0C83D8B69F /* NCMBRelation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B11D1324E53FFB443C16A8ADBE30CF1C /* NCMBRelation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30159E26716576A31C8B7A842C5EDA5D /* NCMBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E348D8431B1FEB714DDF2331578788 /* NCMBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30AA91399CFB8632BF6B42EFF615D606 /* SPAlertIconMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C37EEBF0C01C34090837DD20D386531 /* SPAlertIconMessageView.swift */; };
-		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 144F74978DAE7D69340FCAEA109AC42F /* SVProgressHUD.m */; };
+		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F39DAC9F27DEE9904C78D98BEDB281D /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBA7CEE62B7F9ABD255138C509AB697 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49302B07DD6807A76AC13BD65E87E86E /* NSDataBase64Encode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0DEBDA83AD44D333BB2BDF2DF1C40545 /* NCMBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = 70638E7862255F454B1A2627C1582FAC /* NCMBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		133E10019DBB0634FBA4EDC0A452560A /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE7642FAAC6DBF68B683CAEE645C5D /* NCMBCloseImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		16DE34B66EC956DF0D01375BBE8408CC /* NCMB.h in Headers */ = {isa = PBXBuildFile; fileRef = F704934CBC3FC464A403E603F3418AFE /* NCMB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B68CF4A7D6312EDC0B57698C645610B /* NCMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA08C403AEA1C397A88D553051AC0C8 /* NCMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD30B7E10E79B7A8A9735C060EAF685 /* NCMBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E83C1642DDC666C66968B77CA050E5D0 /* NCMBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E2F694A78E1E9F56D150C12943E843C /* NCMBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = D45F9B3ADE7CC229CF75457D6F8259C2 /* NCMBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2105C04A75D22BE1EC49A6C7BCDF1B90 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BF9B0D43F66CD3BF7AA1BD20A8057B /* NCMBDateFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		233B31A6CDED4A72A6C92D27033B465E /* NCMBIncrementOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7935CDE10445B743E17B9D2FA7FB66EB /* NCMBIncrementOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235679ED5482BC7C7A5C184E9E8FD2D3 /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EA711F42AA8B94EB84096AEB58BB74C8 /* NCMBURLSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD1336FFC267DCE4ABDE54BF5B486490 /* SVProgressHUD.bundle */; };
+		2D8A0319E29347C130D01CEBA5DDBA64 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E9384F2966A2FAF9D385D3F34C0EBF85 /* SubClassHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2E4E1F3D3E97859F8A0FBF0C83D8B69F /* NCMBRelation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6195516CAA9E0B31BAB1711F7BCE846B /* NCMBRelation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30159E26716576A31C8B7A842C5EDA5D /* NCMBError.h in Headers */ = {isa = PBXBuildFile; fileRef = F1ED3F538B1CED26E7C30FE5B437B3C0 /* NCMBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30AA91399CFB8632BF6B42EFF615D606 /* SPAlertIconMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B39A339D263ED2D0B91DD1BD7D042C4 /* SPAlertIconMessageView.swift */; };
+		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BCADFFE7962F54E8045758342ECE4FA1 /* SVProgressHUD.m */; };
 		35D7B3C29A8CEA268FD69CC6D4B0D4BB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC31555BD3C7EB32AC589C735F7B818 /* SystemConfiguration.framework */; };
-		3694B544C055AAD13F9C5E390DC0AA67 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA72256F2B7053490F0449678501E0 /* NCMBRemoveOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		36B76D90D021A61EACB1F6EBD9B25C67 /* NCMBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB381F85C4D6EAD56D604515B530D2F /* NCMBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3694B544C055AAD13F9C5E390DC0AA67 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C052895F838564F6DC14E1283A1161 /* NCMBRemoveOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36B76D90D021A61EACB1F6EBD9B25C67 /* NCMBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD68A7CAC8E13B8DFE21E6B2D864DA0 /* NCMBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39F2B9B53F1A9B90ECB808A315BD3762 /* Pods-NCMBMemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B69EE06CEF4B6A6D7258B21F56DD1030 /* Pods-NCMBMemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BE5E756C7596D1926C4473A11D250F2 /* NCMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76843E0632D55E5CCA56C8C8C5D83F25 /* NCMB-dummy.m */; };
-		3E3F13E5B5442717673EB176FEB1A705 /* NCMBScriptService.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC4047047193FCBAE458BA602A8A8E6 /* NCMBScriptService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40DC2341C2B66A980153200484996E5E /* NCMBSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FC560FBAA8A903AE7C0867954A7DC5 /* NCMBSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		412C9978E02DE41BC612228E9B588003 /* SPAlertIconCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23592330C3A5984BA8224EF71993A31A /* SPAlertIconCartView.swift */; };
-		4498F26DF8BD6597B05726BF8CEC3DF0 /* SPAlertIconFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446552ED5B725A454AF4238BAAE88254 /* SPAlertIconFlagView.swift */; };
-		44FF84E5BB3922431F3525CE12BF1A0E /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D30D33D34D035C52145542DB906301 /* NCMBRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4739F5DB423B61D492E13BFA958020A3 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BA181C4DAC053743C9E0D43708CB93 /* NCMBRelation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		49009F39763798AAD14A0E5F916DBA6A /* NCMBAddOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E327986E05396330E006A6C1F56ADAED /* NCMBAddOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B7D26C9852875341BD68B3C8E015BD7 /* NCMBRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D979430E119D1BEF4FCCD9ED4088BA1 /* NCMBRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C8B1D485D4105A483BD3502A6175811 /* NCMBRelationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C74CD884106EB924A9A774994C0F3D1E /* NCMBRelationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CD3719F89B6C6C67A4DCEE5C1D33B3B /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90F19F7B13D8E4E292104092CED290 /* NCMBRelationOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4E05AE02794DDB6F0DF1B5EEEE20D12B /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9635D56D954306EF901D29C65236BE85 /* NCMBAddUniqueOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4E7DBB092F450942553AC6821507E4E2 /* NCMBAddUniqueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A56C8D7AAAA70B42DA90EDD8977F2D4D /* NCMBAddUniqueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BE5E756C7596D1926C4473A11D250F2 /* NCMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A34FE1E1C1589CFA30AACBDE0BB21A73 /* NCMB-dummy.m */; };
+		3E3F13E5B5442717673EB176FEB1A705 /* NCMBScriptService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6951FF0C7379F464476CA56A24F298C4 /* NCMBScriptService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DC2341C2B66A980153200484996E5E /* NCMBSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 404BE5651D570C08FEA42F65147EED6D /* NCMBSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		412C9978E02DE41BC612228E9B588003 /* SPAlertIconCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C8F77599EACD1AB628F94B1A820EF3 /* SPAlertIconCartView.swift */; };
+		4498F26DF8BD6597B05726BF8CEC3DF0 /* SPAlertIconFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F89174C2195F7036C19001BCF6AB104 /* SPAlertIconFlagView.swift */; };
+		44FF84E5BB3922431F3525CE12BF1A0E /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D5D38FE3C9D5469D79530D4CB680B /* NCMBRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4739F5DB423B61D492E13BFA958020A3 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22192707D75322A6B5CB9C76829EE462 /* NCMBRelation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49009F39763798AAD14A0E5F916DBA6A /* NCMBAddOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 85BD715881C09E588A452FCB92DE6011 /* NCMBAddOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B7D26C9852875341BD68B3C8E015BD7 /* NCMBRole.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D7F0ECC7135623BF9576D7C0C11527 /* NCMBRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C8B1D485D4105A483BD3502A6175811 /* NCMBRelationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B030D1515E278C71259B6E8991A6C9 /* NCMBRelationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CD3719F89B6C6C67A4DCEE5C1D33B3B /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C34EB0A3E83FBC4FAE5841808F6226 /* NCMBRelationOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E05AE02794DDB6F0DF1B5EEEE20D12B /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 858328B577F3623F73813FA0536D2EA9 /* NCMBAddUniqueOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E7DBB092F450942553AC6821507E4E2 /* NCMBAddUniqueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B31A5C16E6172E31E40AC1F7353647 /* NCMBAddUniqueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5254060120138B45D3E8D9989AC02DDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076103C31B74F49A31AF31CCD52525D3 /* UIKit.framework */; };
 		5320B0C3A67FFED5DBE1589F692B7A03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8549C9CB6FD8E582DD1B80188C18E /* Foundation.framework */; };
-		57C4D7A2F060AB5213765A7C888EFE0D /* NCMBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B51F78090EE5DEDF013E73ABC983A93C /* NCMBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58835991CB0940A4E101D0A31FD9429A /* SPAlertIconRotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5CBD980DF15A6EC16E518F7490F3E0 /* SPAlertIconRotateView.swift */; };
-		58DF144F608E8A4E44A931AB4EBE94D8 /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AC662388FED6CB9D1156D7DC70660C8A /* NCMBAnonymousUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		590E46C40EB6FDA60C827D88EFAB2F35 /* NCMBRemoveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B8B998755532E6FDAB5863A2319522 /* NCMBRemoveOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A1EF1358E8951271DB61D6A1D15532E /* SPAlertIconBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D505036DBFDBBB0171C3055D9CF0F9 /* SPAlertIconBookmarkView.swift */; };
-		5A40CAD9634226B8AB3714E9B584A080 /* NCMBObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBCDC8316BA135F2F9DE2D2FB35155C /* NCMBObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B3083AA8EAD1E585EC41D72963ED32A /* NCMBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 59162297BFC817A0C2323F8E5D1AF06B /* NCMBQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F4B18C14A0E355E6495D36CA31B07E2 /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66118AA19AB268C97C66030BC60C9F1C /* TransitionButton.swift */; };
+		57C4D7A2F060AB5213765A7C888EFE0D /* NCMBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E634661627A2EBEE194A92A5243014D /* NCMBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58835991CB0940A4E101D0A31FD9429A /* SPAlertIconRotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8B271257A4D59CFAA94EB1DD5F3FC /* SPAlertIconRotateView.swift */; };
+		58DF144F608E8A4E44A931AB4EBE94D8 /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B227ED10B50F3B085CCE1470C153ADD /* NCMBAnonymousUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		590E46C40EB6FDA60C827D88EFAB2F35 /* NCMBRemoveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD530CCA3BE9F6FF1094387E64F8282 /* NCMBRemoveOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1EF1358E8951271DB61D6A1D15532E /* SPAlertIconBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7564330B25988A0F1BC2925DBF4DE26 /* SPAlertIconBookmarkView.swift */; };
+		5A40CAD9634226B8AB3714E9B584A080 /* NCMBObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D16CA392A393B19CFC398E7877464E2 /* NCMBObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B3083AA8EAD1E585EC41D72963ED32A /* NCMBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = ED137A3C4D19CCA0C07622128179F4ED /* NCMBQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F4B18C14A0E355E6495D36CA31B07E2 /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EC953F57FBB80D3D3D96C7BBC0ED5 /* TransitionButton.swift */; };
 		5F7B989354D86A88D6D556BF556ABEDF /* Pods-NCMBMemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CABC31310CC33244A09A90655ADF0B79 /* Pods-NCMBMemo-dummy.m */; };
-		5F83DEF0A06BA6E25F409B568AD296C6 /* TransitionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA306B3DB6227DE58DAD91691855272F /* TransitionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68D5924346B2B5CADB47C3082A7E3B47 /* NCMBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A943926549043C8C49FFF63415F1DD /* NCMBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68DBFE3A75BEFADF88E507EC8393ED0E /* SPAlertIconShuffleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D751BA1620C0C57A2A12CCDA7C0EAF /* SPAlertIconShuffleView.swift */; };
+		5F83DEF0A06BA6E25F409B568AD296C6 /* TransitionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83542F6B238A391D4E4567A6BB0C76B5 /* TransitionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68D5924346B2B5CADB47C3082A7E3B47 /* NCMBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA4E5403C4224D74E92CB40B1A00290 /* NCMBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68DBFE3A75BEFADF88E507EC8393ED0E /* SPAlertIconShuffleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705EFC5CA12F78DC197D04464762FFD /* SPAlertIconShuffleView.swift */; };
 		6B49661FB32AFE2B4B91E3242F9DDE2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076103C31B74F49A31AF31CCD52525D3 /* UIKit.framework */; };
-		6C6954B09C6601F42D2953714E0E4A0D /* SPAlertIconLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2684B401CB5CB830EFFBC57366513CB /* SPAlertIconLikeView.swift */; };
-		6CD744CE23989E0EDCA90B4D68A69B11 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B1B6B6AFADC78742A3F64641BE6D2 /* SpinerLayer.swift */; };
-		6FACBDB626DB501984B18A4C9EDCF637 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9889025DC4D5B0A1CEBAA38656A52848 /* NCMBIncrementOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		711D2FEEF85E91A65B9DE715B941341D /* SPAlertIconAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C4653DFACAFC71168DBCA5AC20C8A2 /* SPAlertIconAnimatable.swift */; };
-		728A27DBB28B5F704C7A8F9FA8097BF3 /* SPAlertIconStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E144EFE47234FFD52F0ACDF73002EC /* SPAlertIconStarView.swift */; };
-		760795195DF0A7CB219AE0D679A8BBD5 /* NCMBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1593890C75E55948CAC0657A93B880 /* NCMBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7697800F50826F3E69B2A7B907C4DBFA /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305869405705AED6473BE4620F68613 /* NCMBScriptService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		772A59133E7B6CEBA36696E3FD7F0AF5 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAA0CBB3A01130E19EA4455410140A /* NCMBGeoPoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		77B1CFC7895256F9B79BC9B4AE09B3B1 /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E645EBE513105E312DF8372D3A66D9A /* NCMB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		78FED1755AD35563398A075B9BBB092B /* NCMBObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C8C1F0B70D998B661CEDD51C475E95 /* NCMBObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C6954B09C6601F42D2953714E0E4A0D /* SPAlertIconLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F3C4D576CFE6BFD00FEC94F923516D /* SPAlertIconLikeView.swift */; };
+		6CD744CE23989E0EDCA90B4D68A69B11 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727EF2C6911C8F4187DA3974B797BE5 /* SpinerLayer.swift */; };
+		6FACBDB626DB501984B18A4C9EDCF637 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE562C1640F4CA28149F35D006227FF /* NCMBIncrementOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		711D2FEEF85E91A65B9DE715B941341D /* SPAlertIconAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30004EFAA44805C880EBECBBC7625761 /* SPAlertIconAnimatable.swift */; };
+		728A27DBB28B5F704C7A8F9FA8097BF3 /* SPAlertIconStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337FC97779034185DC4042647BD0180 /* SPAlertIconStarView.swift */; };
+		760795195DF0A7CB219AE0D679A8BBD5 /* NCMBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D26266B8D40B9C18131A1F032EF699 /* NCMBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7697800F50826F3E69B2A7B907C4DBFA /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7C4C9AEABDED1D74DA688F3FFF8617 /* NCMBScriptService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		772A59133E7B6CEBA36696E3FD7F0AF5 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C0B11E483419553343ED126123036 /* NCMBGeoPoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77B1CFC7895256F9B79BC9B4AE09B3B1 /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B22E689BF2E6E9A3A140BDF5859BBD6 /* NCMB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		78FED1755AD35563398A075B9BBB092B /* NCMBObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD31C1F582726857EF3E230017F7519 /* NCMBObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7918FEBCB040FBDDD5457A53E663FC2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076103C31B74F49A31AF31CCD52525D3 /* UIKit.framework */; };
-		7CD1AE8626ED8E244A82561100F15BBF /* SPAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80EAA77047CFD9B8DE6F80D326D4D6BA /* SPAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF306F71F7785D8B4B6CA3F88711865 /* NCMBDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = CABB66C381F8EB230B3CDB96A4664397 /* NCMBDateFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D1C7728C41ABDBAFC43F56D62D2098C /* NCMBUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1314B46C6EF67A6A1294A6891AF9BFB9 /* NCMBUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD1AE8626ED8E244A82561100F15BBF /* SPAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 052B5B421D4C51AF745CBAE566CBF45A /* SPAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF306F71F7785D8B4B6CA3F88711865 /* NCMBDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 99123BB0B41FF9D7B833352782C359C9 /* NCMBDateFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D1C7728C41ABDBAFC43F56D62D2098C /* NCMBUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 795A77737C7C94EBBE8FB7A258979F60 /* NCMBUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EAE0D0DFB6B9FA23969174BD33433DC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62FC576621FDE0D1EFD8B8225BBEE30 /* MobileCoreServices.framework */; };
-		7F682A458C329854DC9FF9ADC2C61A65 /* SPAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926A3AA3A4840D3E38D724FBE69088E /* SPAlert.swift */; };
-		842A3726EE44B5C44A9E7748314731A6 /* SPAlertIconQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020C945E43C4E3E97D06A14FFB4DC6A /* SPAlertIconQuestionView.swift */; };
-		84310C8A7BCF62EC048FEFA181C0BD04 /* SPAlertIconRepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990AEEB7765E3FF58B7D0CA379B414D /* SPAlertIconRepeatView.swift */; };
-		847F2E48BA1F085DB9AB6E5A83A7A164 /* NCMBSetOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE8291115DCF388C1E6F37AEC1C2259 /* NCMBSetOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8493869A7A6C202D77C239D038D12C8B /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246CDFA8D2588B7A20E2A737F00F8AFD /* CGRectExtension.swift */; };
-		875A31CA39317E71965996B29E556B2F /* SPAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF6548448C5757FC5DAEF32BB8CC4E3 /* SPAlertView.swift */; };
-		8A54D2C093B5CD338EBFF1E854D82C55 /* NCMBQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A7C09B79E394781AF9BBC7A6B2B2C6 /* NCMBQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AA05C8B5015886F6438B72E01C127F3 /* SPAlertHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D316503B857854E7581C3FD69D240B4 /* SPAlertHaptic.swift */; };
-		8ABB9A811F9AB196DFEBDDFF6C38CE9B /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77893D6F7E72F1749780A23C5DCF77E7 /* NCMBInstallation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8D01A2C70622E7BC4A4DC34D239FA8F2 /* NCMBGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F9E687FC25294862828CD49DCFEC988 /* NCMBGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DBF76F8FFE6CD81EC98ACC7C1938374 /* NCMBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4851B3E9D6A93D3A932E2846ADF532 /* NCMBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F1903D6C12E2D38EFC8C1B944280544 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8E30D0766EC2B1DD29173EDD228F4 /* NCMBACL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		92335E0C09DFDB04DD64C92AE2C76849 /* SPAlertIconEjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE489B6402EE06D04B5DEDB49D4FD80 /* SPAlertIconEjectView.swift */; };
-		92C532758662CA4BA382B086DA6017AB /* SPAlertIconDislikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8A852BFCB051DAF3E5DCDDB796124 /* SPAlertIconDislikeView.swift */; };
-		946C6015181D606182F36C7551D69134 /* NCMBCloseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 43623D0E4F6B524C6178796A436637DF /* NCMBCloseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E23F5F7E7FEBFD77FE7C2129EBFA8A /* SPAlertIconBoltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830D00122B0A8588550221EB8546063 /* SPAlertIconBoltView.swift */; };
-		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = A32F2679868019D630ECBB277D9C4188 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F682A458C329854DC9FF9ADC2C61A65 /* SPAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B5913F836A3E47E51676A06DE6702 /* SPAlert.swift */; };
+		842A3726EE44B5C44A9E7748314731A6 /* SPAlertIconQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84181CD63823200A7E76BAC0CB7D3A /* SPAlertIconQuestionView.swift */; };
+		84310C8A7BCF62EC048FEFA181C0BD04 /* SPAlertIconRepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E22D33FABF633368BD00915BA8281E /* SPAlertIconRepeatView.swift */; };
+		847F2E48BA1F085DB9AB6E5A83A7A164 /* NCMBSetOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E3474BC66058E888CED2D170CF2E307D /* NCMBSetOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8493869A7A6C202D77C239D038D12C8B /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B056CFAA85DEDAA3E6061B2230187D1 /* CGRectExtension.swift */; };
+		875A31CA39317E71965996B29E556B2F /* SPAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB4A0795C1A257CD6D7C7CFAA480BF /* SPAlertView.swift */; };
+		8A54D2C093B5CD338EBFF1E854D82C55 /* NCMBQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B93746ECF591E32C70E754E6C143AC /* NCMBQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA05C8B5015886F6438B72E01C127F3 /* SPAlertHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA2F663DE7C66374FF0439CADF2EA06 /* SPAlertHaptic.swift */; };
+		8ABB9A811F9AB196DFEBDDFF6C38CE9B /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCDD21EAD437645368F356E6B0430A4 /* NCMBInstallation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8D01A2C70622E7BC4A4DC34D239FA8F2 /* NCMBGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 612CF7AB453165063403F1321D439D92 /* NCMBGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DBF76F8FFE6CD81EC98ACC7C1938374 /* NCMBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEE020B6BA9610EC1C8A7D75D903479 /* NCMBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F1903D6C12E2D38EFC8C1B944280544 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9512715BC87AF25DAF544BCBD9215C /* NCMBACL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		92335E0C09DFDB04DD64C92AE2C76849 /* SPAlertIconEjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61559FD6EAAB5540A6FA62405CE967E /* SPAlertIconEjectView.swift */; };
+		92C532758662CA4BA382B086DA6017AB /* SPAlertIconDislikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7541245A60354587B8CD188DF7E96D /* SPAlertIconDislikeView.swift */; };
+		946C6015181D606182F36C7551D69134 /* NCMBCloseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = B102EBF26A476D4DD508343B0B9CD20B /* NCMBCloseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E23F5F7E7FEBFD77FE7C2129EBFA8A /* SPAlertIconBoltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B690D4DB3A48BCD17F6823851F09E6EB /* SPAlertIconBoltView.swift */; };
+		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0504B37EDAE6A05B69F4D58EF267BDB6 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDCEB084EC14CD38C01B40F9BD461A1 /* QuartzCore.framework */; };
-		9973688E7F77B2933FEC6A4AA9CEDA30 /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72224D147B11FBC8D4C5FB6CDBBFBAEA /* NCMBAddOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		99B542F5E04BCBC2D5FE7252E5B233BB /* SPAlertIconMoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F76FBD430B53FB8680C3D395208020C /* SPAlertIconMoonView.swift */; };
-		9A4289C276C14E012AA95D6E5A55A9D1 /* NCMBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E943607E92580FFF9F2FBFF70731259 /* NCMBRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A6A3DE13D25C6D768E57DF35726E780 /* NCMB_umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D9CBD80AFFA07F34D30C68E363EEEC /* NCMB_umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AA509C5E700502B53E906ECB0BF6F7A /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6BEC16BB23ED2C94A7A50F0CE058D /* NCMBDeleteOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05309EBDE91BA9C8E6DDD47229824594 /* SVProgressHUD-dummy.m */; };
-		A146196A4D46A9071BE3809E7D8B3E4E /* SPAlertIconDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B6A83DD5FFCCA12C2C548746DF6024 /* SPAlertIconDoneView.swift */; };
-		A65CC7CD5D63B34CC62E36A784129043 /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 67163D8091D2AF104633DB8A00E829F0 /* NCMBRole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A744660DE5D55E41402F92038EA3B7F1 /* SPAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 467F36D4F548B7B2E3224D66E73A433A /* SPAlert-dummy.m */; };
+		9973688E7F77B2933FEC6A4AA9CEDA30 /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 85203E46E5D30FDC5F7E966C9A2AD6B7 /* NCMBAddOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		99B542F5E04BCBC2D5FE7252E5B233BB /* SPAlertIconMoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0307E20CD62DED72FDAD6778DA587C4 /* SPAlertIconMoonView.swift */; };
+		9A4289C276C14E012AA95D6E5A55A9D1 /* NCMBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C77C0471D7BBC9D783F90511BB1388 /* NCMBRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A6A3DE13D25C6D768E57DF35726E780 /* NCMB_umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDB6DD949CB8AD35EFE59163792B9F9 /* NCMB_umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AA509C5E700502B53E906ECB0BF6F7A /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C457711ACDC942A1F612CBB72EB04 /* NCMBDeleteOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33555F96D03B30A420CD8F1AA2A75416 /* SVProgressHUD-dummy.m */; };
+		A146196A4D46A9071BE3809E7D8B3E4E /* SPAlertIconDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28AF15D674A0AE6B567ECB00CD91ECC /* SPAlertIconDoneView.swift */; };
+		A65CC7CD5D63B34CC62E36A784129043 /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B2F1CD65B88418A427CB17E5FE31B1 /* NCMBRole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A744660DE5D55E41402F92038EA3B7F1 /* SPAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B388CB50D09F01EBD4F6F04D4B8518C /* SPAlert-dummy.m */; };
 		A796D6973AE13D5D8EE83AF931A0AA2C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE0529CCE42B35B43F9B1ED5FA41EB0 /* AudioToolbox.framework */; };
-		A9608BB8B6E58305E4BED378910598F4 /* NCMBAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D0A7E3F68B75DB9E5799AE2B992E2B /* NCMBAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAB7A9B59BBC4990B6E9928E6FF2FAD2 /* SPAlertIconMagicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68349922D8D3407D6BFB5F16B6990C8B /* SPAlertIconMagicView.swift */; };
-		AC9A14805175C5BD7C93CDAED29B45BE /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F83C9227298D8EFC610038421B6C034 /* FadeTransition.swift */; };
-		AD92507DFD89C6F9DA643E25E868EEC6 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E078E17468A4C8E8607D2B628346FA /* NCMBReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AE5B61760B4E71E0B8FF5B2738DD267F /* NCMBURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 73300827533D602796CC09D431383CAE /* NCMBURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEEF0B394DC2FB734995DB1F8DE8181B /* SPAlertIconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F03A3869D7888749F1CF5CD761C46 /* SPAlertIconCardView.swift */; };
-		AF0BDA7D5690A8683A97D7FBC7E25505 /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFC0C1FF67CB0CB900656B50FF1342F /* NCMBRichPushView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AF903933107BFCE5990DAD2D7072E6EC /* NCMBRichPushView.h in Headers */ = {isa = PBXBuildFile; fileRef = F128881BE566472AF960F7F03019590D /* NCMBRichPushView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F45ABED10520CAD799547E765F8455 /* SVIndefiniteAnimatedView.m */; };
-		B6974266705E676BE4F99201AC65A279 /* SubClassHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B07F5DE30C124DDE87A9FBCFB2AB14A5 /* SubClassHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9CD4633A29D862A5FE375008806E454 /* SPAlertPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778485042AF367C13A5A7DFBE12D64B5 /* SPAlertPreset.swift */; };
+		A9608BB8B6E58305E4BED378910598F4 /* NCMBAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 062C7B6FCFF3061951A109555AF0F862 /* NCMBAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB7A9B59BBC4990B6E9928E6FF2FAD2 /* SPAlertIconMagicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA19F606DE21E702D1E315F28EE4F1E /* SPAlertIconMagicView.swift */; };
+		AC9A14805175C5BD7C93CDAED29B45BE /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376E776192394D6162316E3289B7954 /* FadeTransition.swift */; };
+		AD92507DFD89C6F9DA643E25E868EEC6 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 392F56D7FB93082DFA48B6A8F9C3A15E /* NCMBReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AE5B61760B4E71E0B8FF5B2738DD267F /* NCMBURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFF67041E739EB26BC3DD2949181658 /* NCMBURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEEF0B394DC2FB734995DB1F8DE8181B /* SPAlertIconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FA440BB1B849D01E79D8EAAF27328 /* SPAlertIconCardView.swift */; };
+		AF0BDA7D5690A8683A97D7FBC7E25505 /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E544C3EDB81A4547317BAFFA13AE623 /* NCMBRichPushView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF903933107BFCE5990DAD2D7072E6EC /* NCMBRichPushView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CC94162DFE78B621FB0F4E67E105B8 /* NCMBRichPushView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12A7D52C25BF630C5861906443E6A1 /* SVIndefiniteAnimatedView.m */; };
+		B6974266705E676BE4F99201AC65A279 /* SubClassHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B3EA8051E7C3963EA361DA10AD0B8C20 /* SubClassHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9CD4633A29D862A5FE375008806E454 /* SPAlertPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123B9BDC9BD1BCE60EB7A35A9DBA3097 /* SPAlertPreset.swift */; };
 		BCBBEA913A044397A007674F89E1758F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8549C9CB6FD8E582DD1B80188C18E /* Foundation.framework */; };
-		BD29DB0A3314538D17AEA75111865F17 /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 056257177AD5070BFC03B07FB5C259C4 /* NCMBSetOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C2F6E646900EED6A1D186A193E4E3C25 /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED81D0D132D8AED56B12E208D71C4E77 /* CustomTransitionViewController.swift */; };
-		C69E5A713298D8A5C407322DF9890711 /* NCMBACL.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF98846A3B978C7222B6B1C709DFE9F /* NCMBACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9AAD1FD929B27482D45CC4D7742D98B /* SPAlertIconPrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22592A29ACF983EE70014AE9818BFF /* SPAlertIconPrivacyView.swift */; };
-		CA50F45DBABF604EA91CC24BB899B7C1 /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C21ADEDA0CD6C078C50D8CD47C9C18 /* NCMBUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CC42550E948BD51E7B6EC3CE30864307 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 5877C3B59F583152F92E1294EF753D05 /* NCMBError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CDE54DA0F603F6571D170609C3BC03AE /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD3BE4DEDABC6DB2DA830B94D423563 /* NCMBPush.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3CC418E6ED0AC87D98967B5B534BE0 /* SVRadialGradientLayer.m */; };
-		D23E0E2AEE2B75F8740AB899D3917457 /* NCMBDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D68347C625828C8B54944F424CF4DA /* NCMBDeleteOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D32898411FA97F54A5F01574A765CFC1 /* NCMBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 195748B1B60DF22144CE5E7B212E15B2 /* NCMBAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD29DB0A3314538D17AEA75111865F17 /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D92EE63A85DBAF9F563DC941C206ADE2 /* NCMBSetOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C2F6E646900EED6A1D186A193E4E3C25 /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA235E601B52116FE875EF68930186CF /* CustomTransitionViewController.swift */; };
+		C69E5A713298D8A5C407322DF9890711 /* NCMBACL.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5E29768792E026CE15333D12C747BA /* NCMBACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9AAD1FD929B27482D45CC4D7742D98B /* SPAlertIconPrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4082C059B701747EC2D896B8076BCFDB /* SPAlertIconPrivacyView.swift */; };
+		CA50F45DBABF604EA91CC24BB899B7C1 /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C8490D6B2C70ECB987B266F8299794C9 /* NCMBUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CC42550E948BD51E7B6EC3CE30864307 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 65970565C3E77DF403D36DD9469C7F21 /* NCMBError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CDE54DA0F603F6571D170609C3BC03AE /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = C71448E4875486FDA16104AABAC8A62D /* NCMBPush.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7319F32FF2F92FBCD666F12335A02F19 /* SVRadialGradientLayer.m */; };
+		D23E0E2AEE2B75F8740AB899D3917457 /* NCMBDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 034FF8844FF3742D1E09FAE9C13BB47E /* NCMBDeleteOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32898411FA97F54A5F01574A765CFC1 /* NCMBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5EAEE9FF27D406E5E89DBB4A47BBC7 /* NCMBAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8549C9CB6FD8E582DD1B80188C18E /* Foundation.framework */; };
-		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D810D85F57D4717A6D7440F2867C79 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8C2C38766F9949E7B59DB98E47C141F /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11EA8F5E2E014672FB4CAE69389E1B /* NCMBObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B60F4DE02283A8EDAB3D1867615F5828 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F947A632EA074FC623019C9DAC5292 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E146A07B19B3DCF6432E66170C6DC034 /* SPAlertIconDocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B68377F2B56918852D279D4DC064B /* SPAlertIconDocView.swift */; };
-		E2846A9E50EAF8DBE210BB5E4E52B028 /* NCMBPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B70DD22CC2EE726B59D1635ED46CEA5 /* NCMBPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E533773C27147789164643D2DC9DBC1E /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 01794F41C706EE37C8B8EB445E0115FA /* NCMBFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EAE593967EA104B659261ABED4AE1648 /* SPAlertIconErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC917E3DD4D71FDD54A41F492DF41833 /* SPAlertIconErrorView.swift */; };
-		EB37F6F76E2AF88297D18E0065B6863B /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D69F464A42A1FFEE60468589903FA71 /* NCMBQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C48CE87BD449299053A622F7715D639 /* SVProgressAnimatedView.m */; };
-		F09820DA915C61A106A83FCC66C73954 /* SPAlertLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66848CBCA18FF8728AEA821BBFB57A1E /* SPAlertLayout.swift */; };
-		F3E13455C20E05924A7E38E0789EA716 /* NSDataBase64Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE33CE26C57911179861C7B6AFF2825 /* NSDataBase64Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F521680C706BF78B52B821AD6395B3D8 /* SPAlertIconAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3BDC85F1B0539173173108AF2CAD3 /* SPAlertIconAddView.swift */; };
-		F53A1509D015FB11E88B0B8F1CB8C860 /* SPAlertIconHeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587144507F23D7893751C0CCB50FFCB /* SPAlertIconHeartView.swift */; };
+		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC44DB2A541A70227FCAC4D2EDC55B7 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C2C38766F9949E7B59DB98E47C141F /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA618C2600382A77F62E3A41B9DA231 /* NCMBObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0D5733342DB721BEF452EDE1DF4BE1 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 471D9E7479E45810A939588C105A301B /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E146A07B19B3DCF6432E66170C6DC034 /* SPAlertIconDocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2E9F6663F0D743C010EFE0114A8A45 /* SPAlertIconDocView.swift */; };
+		E2846A9E50EAF8DBE210BB5E4E52B028 /* NCMBPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB984B5393FBA6D027039DFFD152E77 /* NCMBPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E533773C27147789164643D2DC9DBC1E /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3892CE1D89C9920DE039AACABDD00 /* NCMBFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EAE593967EA104B659261ABED4AE1648 /* SPAlertIconErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707E0D34834D32512436958815970EB6 /* SPAlertIconErrorView.swift */; };
+		EB37F6F76E2AF88297D18E0065B6863B /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A274FCD6E6F1F7E7FAC58B48836E5075 /* NCMBQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CDC53157EB2B5774C32C349AF7EDCB /* SVProgressAnimatedView.m */; };
+		F09820DA915C61A106A83FCC66C73954 /* SPAlertLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907608592EBD85C32E0556408A7B061E /* SPAlertLayout.swift */; };
+		F3E13455C20E05924A7E38E0789EA716 /* NSDataBase64Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = B18D61A1838491CD6390EA3F7E9D71F1 /* NSDataBase64Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F521680C706BF78B52B821AD6395B3D8 /* SPAlertIconAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A120465543ADE296E03332BFCD840D /* SPAlertIconAddView.swift */; };
+		F53A1509D015FB11E88B0B8F1CB8C860 /* SPAlertIconHeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64728622CF745EA8DC0BE1AE995920C3 /* SPAlertIconHeartView.swift */; };
 		F858EF88FE4F43277497E2569C92B378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8549C9CB6FD8E582DD1B80188C18E /* Foundation.framework */; };
-		FB5750C8EC4E9499CFE40E099ECACD87 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 268CB487573D3C8104AF0DE18AEC00FA /* NCMBAnalytics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FB57D26DC7A8BAD8AD76BCC8369E203F /* SPAlertIconExclamationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D4850793C7DED1DD5920BA668BCB6C /* SPAlertIconExclamationView.swift */; };
+		FB5750C8EC4E9499CFE40E099ECACD87 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 8987E4DE46597936C4AB9135EC1384BE /* NCMBAnalytics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FB57D26DC7A8BAD8AD76BCC8369E203F /* SPAlertIconExclamationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D76125089F2BA704184DAFF7CA344F5 /* SPAlertIconExclamationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,163 +176,167 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01794F41C706EE37C8B8EB445E0115FA /* NCMBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFile.m; path = NCMB/NCMBFile.m; sourceTree = "<group>"; };
-		05309EBDE91BA9C8E6DDD47229824594 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		056257177AD5070BFC03B07FB5C259C4 /* NCMBSetOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBSetOperation.m; path = NCMB/Operations/NCMBSetOperation.m; sourceTree = "<group>"; };
-		06A5CE54DD1B90D5A4F79A7E44B6CFF8 /* NCMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NCMB.modulemap; sourceTree = "<group>"; };
-		0743B62A3947A0265983F7D47C6131AD /* NCMBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScript.h; path = NCMB/NCMBScript.h; sourceTree = "<group>"; };
+		034FF8844FF3742D1E09FAE9C13BB47E /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDeleteOperation.h; path = NCMB/Operations/NCMBDeleteOperation.h; sourceTree = "<group>"; };
+		0504B37EDAE6A05B69F4D58EF267BDB6 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		052B5B421D4C51AF745CBAE566CBF45A /* SPAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-umbrella.h"; sourceTree = "<group>"; };
+		062C7B6FCFF3061951A109555AF0F862 /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnonymousUtils.h; path = NCMB/NCMBAnonymousUtils.h; sourceTree = "<group>"; };
 		076103C31B74F49A31AF31CCD52525D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0A3D0A8FC3883D889A8A2DB6D0375485 /* TransitionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-prefix.pch"; sourceTree = "<group>"; };
-		0A4851B3E9D6A93D3A932E2846ADF532 /* NCMBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRequest.h; path = NCMB/NCMBRequest/NCMBRequest.h; sourceTree = "<group>"; };
-		0BD8E30D0766EC2B1DD29173EDD228F4 /* NCMBACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBACL.m; path = NCMB/NCMBACL.m; sourceTree = "<group>"; };
-		0D7F03A3869D7888749F1CF5CD761C46 /* SPAlertIconCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconCardView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconCardView.swift; sourceTree = "<group>"; };
-		0DD8A852BFCB051DAF3E5DCDDB796124 /* SPAlertIconDislikeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDislikeView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconDislikeView.swift; sourceTree = "<group>"; };
-		0ED427C589A42B6FDF66ABDA9ABB9ABC /* NCMB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NCMB-Info.plist"; sourceTree = "<group>"; };
-		0EDE83246088372FC77B2013736D2A52 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		0F76FBD430B53FB8680C3D395208020C /* SPAlertIconMoonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconMoonView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconMoonView.swift; sourceTree = "<group>"; };
-		1078B116CC4E1A485E5A91615C91F79C /* SPAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPAlert.modulemap; sourceTree = "<group>"; };
-		11CF4BF515D7BAE2226A22F898429C8B /* NCMB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.xcconfig; sourceTree = "<group>"; };
-		1314B46C6EF67A6A1294A6891AF9BFB9 /* NCMBUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBUser+Private.h"; path = "NCMB/PrivateHeaders/NCMBUser+Private.h"; sourceTree = "<group>"; };
-		144F74978DAE7D69340FCAEA109AC42F /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		1587144507F23D7893751C0CCB50FFCB /* SPAlertIconHeartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconHeartView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconHeartView.swift; sourceTree = "<group>"; };
-		186B19CE6001E1FC5EC902F7A0B9C6F6 /* NCMBCloseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBCloseImageView.m; path = NCMB/NCMBRichPush/NCMBCloseImageView.m; sourceTree = "<group>"; };
-		195748B1B60DF22144CE5E7B212E15B2 /* NCMBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnalytics.h; path = NCMB/NCMBAnalytics.h; sourceTree = "<group>"; };
-		19C8C1F0B70D998B661CEDD51C475E95 /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Subclass.h"; path = "NCMB/NCMBObject+Subclass.h"; sourceTree = "<group>"; };
-		1D69F464A42A1FFEE60468589903FA71 /* NCMBQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBQuery.m; path = NCMB/NCMBQuery.m; sourceTree = "<group>"; };
+		0B056CFAA85DEDAA3E6061B2230187D1 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = Source/CGRectExtension.swift; sourceTree = "<group>"; };
+		0B12A7D52C25BF630C5861906443E6A1 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		0CE562C1640F4CA28149F35D006227FF /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBIncrementOperation.m; path = NCMB/Operations/NCMBIncrementOperation.m; sourceTree = "<group>"; };
+		0E544C3EDB81A4547317BAFFA13AE623 /* NCMBRichPushView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRichPushView.m; path = NCMB/NCMBRichPush/NCMBRichPushView.m; sourceTree = "<group>"; };
+		10EB4A0795C1A257CD6D7C7CFAA480BF /* SPAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertView.swift; path = Source/SPAlert/Views/SPAlertView.swift; sourceTree = "<group>"; };
+		123B9BDC9BD1BCE60EB7A35A9DBA3097 /* SPAlertPreset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertPreset.swift; path = Source/SPAlert/Models/SPAlertPreset.swift; sourceTree = "<group>"; };
+		178216C4425BF9A12FED0DF81F9AEA12 /* TransitionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TransitionButton.modulemap; sourceTree = "<group>"; };
+		18C34EB0A3E83FBC4FAE5841808F6226 /* NCMBRelationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelationOperation.m; path = NCMB/Operations/NCMBRelationOperation.m; sourceTree = "<group>"; };
+		1D031DD7F83B480421E7DFAD0B17CA90 /* SPAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAlert.debug.xcconfig; sourceTree = "<group>"; };
 		21C6112C32E20699423BAF28AB8952DE /* Pods-NCMBMemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NCMBMemo-frameworks.sh"; sourceTree = "<group>"; };
-		22EA72256F2B7053490F0449678501E0 /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRemoveOperation.m; path = NCMB/Operations/NCMBRemoveOperation.m; sourceTree = "<group>"; };
-		23592330C3A5984BA8224EF71993A31A /* SPAlertIconCartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconCartView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconCartView.swift; sourceTree = "<group>"; };
-		23C21ADEDA0CD6C078C50D8CD47C9C18 /* NCMBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBUser.m; path = NCMB/NCMBUser.m; sourceTree = "<group>"; };
-		23D810D85F57D4717A6D7440F2867C79 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		246CDFA8D2588B7A20E2A737F00F8AFD /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = Source/CGRectExtension.swift; sourceTree = "<group>"; };
-		268CB487573D3C8104AF0DE18AEC00FA /* NCMBAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnalytics.m; path = NCMB/NCMBAnalytics.m; sourceTree = "<group>"; };
-		26E348D8431B1FEB714DDF2331578788 /* NCMBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBError.h; path = NCMB/NCMBError.h; sourceTree = "<group>"; };
-		2AAE11DF3DBFE52FD38F3BD3D6662ED0 /* SPAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAlert.xcconfig; sourceTree = "<group>"; };
-		2CD0722440BCA90E63DD8585B29F5AA1 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		2DD6BEC16BB23ED2C94A7A50F0CE058D /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDeleteOperation.m; path = NCMB/Operations/NCMBDeleteOperation.m; sourceTree = "<group>"; };
-		31D751BA1620C0C57A2A12CCDA7C0EAF /* SPAlertIconShuffleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconShuffleView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconShuffleView.swift; sourceTree = "<group>"; };
-		371AC55D74F25C64F6CCC0C1AE3967AA /* NCMBScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScript.m; path = NCMB/NCMBScript.m; sourceTree = "<group>"; };
-		37F45ABED10520CAD799547E765F8455 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		4348417DD7592881B0CE65C688A5C27E /* NCMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-umbrella.h"; sourceTree = "<group>"; };
-		43623D0E4F6B524C6178796A436637DF /* NCMBCloseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBCloseImageView.h; path = NCMB/NCMBRichPush/NCMBCloseImageView.h; sourceTree = "<group>"; };
-		43BA181C4DAC053743C9E0D43708CB93 /* NCMBRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelation.m; path = NCMB/NCMBRelation.m; sourceTree = "<group>"; };
-		446552ED5B725A454AF4238BAAE88254 /* SPAlertIconFlagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconFlagView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconFlagView.swift; sourceTree = "<group>"; };
-		467F36D4F548B7B2E3224D66E73A433A /* SPAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPAlert-dummy.m"; sourceTree = "<group>"; };
-		4CE8291115DCF388C1E6F37AEC1C2259 /* NCMBSetOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSetOperation.h; path = NCMB/Operations/NCMBSetOperation.h; sourceTree = "<group>"; };
-		4D979430E119D1BEF4FCCD9ED4088BA1 /* NCMBRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRole.h; path = NCMB/NCMBRole.h; sourceTree = "<group>"; };
-		4E943607E92580FFF9F2FBFF70731259 /* NCMBRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelation.h; path = NCMB/NCMBRelation.h; sourceTree = "<group>"; };
-		4F9E687FC25294862828CD49DCFEC988 /* NCMBGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBGeoPoint.h; path = NCMB/NCMBGeoPoint.h; sourceTree = "<group>"; };
-		4FB381F85C4D6EAD56D604515B530D2F /* NCMBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBObject.h; path = NCMB/NCMBObject.h; sourceTree = "<group>"; };
-		529DF158CC19BF1F3260A4A183F4AC18 /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBIncrementOperation.h; path = NCMB/Operations/NCMBIncrementOperation.h; sourceTree = "<group>"; };
-		533B68377F2B56918852D279D4DC064B /* SPAlertIconDocView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDocView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconDocView.swift; sourceTree = "<group>"; };
-		57D505036DBFDBBB0171C3055D9CF0F9 /* SPAlertIconBookmarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconBookmarkView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconBookmarkView.swift; sourceTree = "<group>"; };
-		5877C3B59F583152F92E1294EF753D05 /* NCMBError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBError.m; path = NCMB/NCMBError.m; sourceTree = "<group>"; };
-		59162297BFC817A0C2323F8E5D1AF06B /* NCMBQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBQuery.h; path = NCMB/NCMBQuery.h; sourceTree = "<group>"; };
-		5AFC0C1FF67CB0CB900656B50FF1342F /* NCMBRichPushView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRichPushView.m; path = NCMB/NCMBRichPush/NCMBRichPushView.m; sourceTree = "<group>"; };
-		5E645EBE513105E312DF8372D3A66D9A /* NCMB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB.m; path = NCMB/NCMB.m; sourceTree = "<group>"; };
+		21C8B271257A4D59CFAA94EB1DD5F3FC /* SPAlertIconRotateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconRotateView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconRotateView.swift; sourceTree = "<group>"; };
+		22192707D75322A6B5CB9C76829EE462 /* NCMBRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelation.m; path = NCMB/NCMBRelation.m; sourceTree = "<group>"; };
+		2676D29A4A2785460FDC47AA897200E5 /* SPAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPAlert.modulemap; sourceTree = "<group>"; };
+		29A120465543ADE296E03332BFCD840D /* SPAlertIconAddView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconAddView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconAddView.swift; sourceTree = "<group>"; };
+		2B7C4C9AEABDED1D74DA688F3FFF8617 /* NCMBScriptService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScriptService.m; path = NCMB/NCMBScriptService/NCMBScriptService.m; sourceTree = "<group>"; };
+		2C00A7C1B12DFCC4125F292EA1123472 /* SPAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPAlert-Info.plist"; sourceTree = "<group>"; };
+		30004EFAA44805C880EBECBBC7625761 /* SPAlertIconAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconAnimatable.swift; path = Source/SPAlert/Protocol/SPAlertIconAnimatable.swift; sourceTree = "<group>"; };
+		33555F96D03B30A420CD8F1AA2A75416 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		3705EFC5CA12F78DC197D04464762FFD /* SPAlertIconShuffleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconShuffleView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconShuffleView.swift; sourceTree = "<group>"; };
+		3707809B86F226F1FBCD2C0D09215882 /* SPAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAlert.release.xcconfig; sourceTree = "<group>"; };
+		392F56D7FB93082DFA48B6A8F9C3A15E /* NCMBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBReachability.m; path = NCMB/NCMBReachability/NCMBReachability.m; sourceTree = "<group>"; };
+		3E9182585448818522BAB615A61949BA /* NCMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NCMB.modulemap; sourceTree = "<group>"; };
+		3F7541245A60354587B8CD188DF7E96D /* SPAlertIconDislikeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDislikeView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconDislikeView.swift; sourceTree = "<group>"; };
+		3FD530CCA3BE9F6FF1094387E64F8282 /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRemoveOperation.h; path = NCMB/Operations/NCMBRemoveOperation.h; sourceTree = "<group>"; };
+		404BE5651D570C08FEA42F65147EED6D /* NCMBSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSubclassing.h; path = NCMB/NCMBSubclassing.h; sourceTree = "<group>"; };
+		4082C059B701747EC2D896B8076BCFDB /* SPAlertIconPrivacyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconPrivacyView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconPrivacyView.swift; sourceTree = "<group>"; };
+		41D26266B8D40B9C18131A1F032EF699 /* NCMBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBUser.h; path = NCMB/NCMBUser.h; sourceTree = "<group>"; };
+		471D9E7479E45810A939588C105A301B /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		49302B07DD6807A76AC13BD65E87E86E /* NSDataBase64Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataBase64Encode.m; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.m; sourceTree = "<group>"; };
+		4EB984B5393FBA6D027039DFFD152E77 /* NCMBPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBPush.h; path = NCMB/NCMBPush.h; sourceTree = "<group>"; };
+		4F0D5733342DB721BEF452EDE1DF4BE1 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		4F89174C2195F7036C19001BCF6AB104 /* SPAlertIconFlagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconFlagView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconFlagView.swift; sourceTree = "<group>"; };
+		5337FC97779034185DC4042647BD0180 /* SPAlertIconStarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconStarView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconStarView.swift; sourceTree = "<group>"; };
+		56110E01BCD3215EC085BB53136EAEAE /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		58C052895F838564F6DC14E1283A1161 /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRemoveOperation.m; path = NCMB/Operations/NCMBRemoveOperation.m; sourceTree = "<group>"; };
+		58C77C0471D7BBC9D783F90511BB1388 /* NCMBRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelation.h; path = NCMB/NCMBRelation.h; sourceTree = "<group>"; };
+		5B227ED10B50F3B085CCE1470C153ADD /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnonymousUtils.m; path = NCMB/NCMBAnonymousUtils.m; sourceTree = "<group>"; };
+		5B388CB50D09F01EBD4F6F04D4B8518C /* SPAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPAlert-dummy.m"; sourceTree = "<group>"; };
+		5DA3892CE1D89C9920DE039AACABDD00 /* NCMBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFile.m; path = NCMB/NCMBFile.m; sourceTree = "<group>"; };
+		5E634661627A2EBEE194A92A5243014D /* NCMBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBReachability.h; path = NCMB/NCMBReachability/NCMBReachability.h; sourceTree = "<group>"; };
+		5E84181CD63823200A7E76BAC0CB7D3A /* SPAlertIconQuestionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconQuestionView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconQuestionView.swift; sourceTree = "<group>"; };
 		5F6BA03A0925860EA21A0CB5F550E9CB /* TransitionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TransitionButton.framework; path = TransitionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F83C9227298D8EFC610038421B6C034 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = Source/FadeTransition.swift; sourceTree = "<group>"; };
-		61FC560FBAA8A903AE7C0867954A7DC5 /* NCMBSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSubclassing.h; path = NCMB/NCMBSubclassing.h; sourceTree = "<group>"; };
-		63C4653DFACAFC71168DBCA5AC20C8A2 /* SPAlertIconAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconAnimatable.swift; path = Source/SPAlert/Protocol/SPAlertIconAnimatable.swift; sourceTree = "<group>"; };
-		64396A9F535191B3F68830EBFD3EEBF0 /* NCMBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBConstants.h; path = NCMB/NCMBConstants.h; sourceTree = "<group>"; };
-		64C3BDC85F1B0539173173108AF2CAD3 /* SPAlertIconAddView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconAddView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconAddView.swift; sourceTree = "<group>"; };
-		65328ACACE950CDB36E2F3C7EEC650AC /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		66118AA19AB268C97C66030BC60C9F1C /* TransitionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionButton.swift; path = Source/TransitionButton.swift; sourceTree = "<group>"; };
-		66848CBCA18FF8728AEA821BBFB57A1E /* SPAlertLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertLayout.swift; path = Source/SPAlert/Models/SPAlertLayout.swift; sourceTree = "<group>"; };
-		66D68347C625828C8B54944F424CF4DA /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDeleteOperation.h; path = NCMB/Operations/NCMBDeleteOperation.h; sourceTree = "<group>"; };
-		67163D8091D2AF104633DB8A00E829F0 /* NCMBRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRole.m; path = NCMB/NCMBRole.m; sourceTree = "<group>"; };
-		6830D00122B0A8588550221EB8546063 /* SPAlertIconBoltView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconBoltView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconBoltView.swift; sourceTree = "<group>"; };
-		68349922D8D3407D6BFB5F16B6990C8B /* SPAlertIconMagicView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconMagicView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconMagicView.swift; sourceTree = "<group>"; };
-		6A864D81554AB00E6D32DDEAB2E471D7 /* NCMBDateFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDateFormat.m; path = NCMB/NCMBDateFormat.m; sourceTree = "<group>"; };
-		6B70DD22CC2EE726B59D1635ED46CEA5 /* NCMBPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBPush.h; path = NCMB/NCMBPush.h; sourceTree = "<group>"; };
-		6C37EEBF0C01C34090837DD20D386531 /* SPAlertIconMessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconMessageView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconMessageView.swift; sourceTree = "<group>"; };
-		72224D147B11FBC8D4C5FB6CDBBFBAEA /* NCMBAddOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddOperation.m; path = NCMB/Operations/NCMBAddOperation.m; sourceTree = "<group>"; };
-		73300827533D602796CC09D431383CAE /* NCMBURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBURLSession.h; path = NCMB/NCMBURLSession/NCMBURLSession.h; sourceTree = "<group>"; };
-		73AA69C493FE76A8633C217995CA0056 /* TransitionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionButton-dummy.m"; sourceTree = "<group>"; };
-		76843E0632D55E5CCA56C8C8C5D83F25 /* NCMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCMB-dummy.m"; sourceTree = "<group>"; };
-		778485042AF367C13A5A7DFBE12D64B5 /* SPAlertPreset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertPreset.swift; path = Source/SPAlert/Models/SPAlertPreset.swift; sourceTree = "<group>"; };
-		77893D6F7E72F1749780A23C5DCF77E7 /* NCMBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBInstallation.m; path = NCMB/NCMBInstallation.m; sourceTree = "<group>"; };
-		77D0ED7999ACD5E87C522BE1B67D623D /* SPAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPAlert-Info.plist"; sourceTree = "<group>"; };
-		782B1B6B6AFADC78742A3F64641BE6D2 /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = Source/SpinerLayer.swift; sourceTree = "<group>"; };
-		7B4E2360BA78173491DD69365E0DFAA4 /* TransitionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionButton.xcconfig; sourceTree = "<group>"; };
-		7DE33CE26C57911179861C7B6AFF2825 /* NSDataBase64Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataBase64Encode.h; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.h; sourceTree = "<group>"; };
+		612CF7AB453165063403F1321D439D92 /* NCMBGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBGeoPoint.h; path = NCMB/NCMBGeoPoint.h; sourceTree = "<group>"; };
+		6195516CAA9E0B31BAB1711F7BCE846B /* NCMBRelation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBRelation+Private.h"; path = "NCMB/PrivateHeaders/NCMBRelation+Private.h"; sourceTree = "<group>"; };
+		640EF85B86A5F08ECCAF4962E890C6C8 /* TransitionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-prefix.pch"; sourceTree = "<group>"; };
+		64728622CF745EA8DC0BE1AE995920C3 /* SPAlertIconHeartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconHeartView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconHeartView.swift; sourceTree = "<group>"; };
+		65970565C3E77DF403D36DD9469C7F21 /* NCMBError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBError.m; path = NCMB/NCMBError.m; sourceTree = "<group>"; };
+		6951FF0C7379F464476CA56A24F298C4 /* NCMBScriptService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScriptService.h; path = NCMB/NCMBScriptService/NCMBScriptService.h; sourceTree = "<group>"; };
+		69E22D33FABF633368BD00915BA8281E /* SPAlertIconRepeatView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconRepeatView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconRepeatView.swift; sourceTree = "<group>"; };
+		6B22E689BF2E6E9A3A140BDF5859BBD6 /* NCMB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB.m; path = NCMB/NCMB.m; sourceTree = "<group>"; };
+		6B39A339D263ED2D0B91DD1BD7D042C4 /* SPAlertIconMessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconMessageView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconMessageView.swift; sourceTree = "<group>"; };
+		6B4335EF48C024364421B14FDF32F044 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		6BA19F606DE21E702D1E315F28EE4F1E /* SPAlertIconMagicView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconMagicView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconMagicView.swift; sourceTree = "<group>"; };
+		6BC44DB2A541A70227FCAC4D2EDC55B7 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		6E3B5913F836A3E47E51676A06DE6702 /* SPAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlert.swift; path = Source/SPAlert/SPAlert.swift; sourceTree = "<group>"; };
+		6FD68A7CAC8E13B8DFE21E6B2D864DA0 /* NCMBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBObject.h; path = NCMB/NCMBObject.h; sourceTree = "<group>"; };
+		6FFF67041E739EB26BC3DD2949181658 /* NCMBURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBURLSession.h; path = NCMB/NCMBURLSession/NCMBURLSession.h; sourceTree = "<group>"; };
+		70638E7862255F454B1A2627C1582FAC /* NCMBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBInstallation.h; path = NCMB/NCMBInstallation.h; sourceTree = "<group>"; };
+		707E0D34834D32512436958815970EB6 /* SPAlertIconErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconErrorView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconErrorView.swift; sourceTree = "<group>"; };
+		71B31A5C16E6172E31E40AC1F7353647 /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddUniqueOperation.h; path = NCMB/Operations/NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
+		7319F32FF2F92FBCD666F12335A02F19 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		744EC953F57FBB80D3D3D96C7BBC0ED5 /* TransitionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionButton.swift; path = Source/TransitionButton.swift; sourceTree = "<group>"; };
+		7935CDE10445B743E17B9D2FA7FB66EB /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBIncrementOperation.h; path = NCMB/Operations/NCMBIncrementOperation.h; sourceTree = "<group>"; };
+		795A77737C7C94EBBE8FB7A258979F60 /* NCMBUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBUser+Private.h"; path = "NCMB/PrivateHeaders/NCMBUser+Private.h"; sourceTree = "<group>"; };
+		7CDB6DD949CB8AD35EFE59163792B9F9 /* NCMB_umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB_umbrella.h; path = NCMB/NCMB_umbrella.h; sourceTree = "<group>"; };
+		7F5EAEE9FF27D406E5E89DBB4A47BBC7 /* NCMBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnalytics.h; path = NCMB/NCMBAnalytics.h; sourceTree = "<group>"; };
 		7FE0529CCE42B35B43F9B1ED5FA41EB0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		80EAA77047CFD9B8DE6F80D326D4D6BA /* SPAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-umbrella.h"; sourceTree = "<group>"; };
-		8305869405705AED6473BE4620F68613 /* NCMBScriptService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScriptService.m; path = NCMB/NCMBScriptService/NCMBScriptService.m; sourceTree = "<group>"; };
+		812A195A7BB26EE39292E5D06D77FC71 /* NCMB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NCMB-Info.plist"; sourceTree = "<group>"; };
+		83542F6B238A391D4E4567A6BB0C76B5 /* TransitionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-umbrella.h"; sourceTree = "<group>"; };
 		83A8549C9CB6FD8E582DD1B80188C18E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		85460808E18F34A1B6B117FF412A4099 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		87A7C09B79E394781AF9BBC7A6B2B2C6 /* NCMBQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBQuery+Private.h"; path = "NCMB/PrivateHeaders/NCMBQuery+Private.h"; sourceTree = "<group>"; };
+		85203E46E5D30FDC5F7E966C9A2AD6B7 /* NCMBAddOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddOperation.m; path = NCMB/Operations/NCMBAddOperation.m; sourceTree = "<group>"; };
+		858328B577F3623F73813FA0536D2EA9 /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddUniqueOperation.m; path = NCMB/Operations/NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
+		85BD715881C09E588A452FCB92DE6011 /* NCMBAddOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddOperation.h; path = NCMB/Operations/NCMBAddOperation.h; sourceTree = "<group>"; };
 		8804DDCE188BBE318117DBD950223910 /* Pods-NCMBMemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NCMBMemo.modulemap"; sourceTree = "<group>"; };
 		897BB0F1917CE9659BA6F71DAA0FB412 /* Pods-NCMBMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NCMBMemo.release.xcconfig"; sourceTree = "<group>"; };
-		8D316503B857854E7581C3FD69D240B4 /* SPAlertHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertHaptic.swift; path = Source/SPAlert/Models/SPAlertHaptic.swift; sourceTree = "<group>"; };
-		95F1068DEE9672A15CEA14185A5393DC /* TransitionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TransitionButton.modulemap; sourceTree = "<group>"; };
-		9635D56D954306EF901D29C65236BE85 /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddUniqueOperation.m; path = NCMB/Operations/NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
-		97F964910A565FEF0B87494E7E5DF6A2 /* SPAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-prefix.pch"; sourceTree = "<group>"; };
-		9889025DC4D5B0A1CEBAA38656A52848 /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBIncrementOperation.m; path = NCMB/Operations/NCMBIncrementOperation.m; sourceTree = "<group>"; };
-		9990AEEB7765E3FF58B7D0CA379B414D /* SPAlertIconRepeatView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconRepeatView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconRepeatView.swift; sourceTree = "<group>"; };
-		99D4850793C7DED1DD5920BA668BCB6C /* SPAlertIconExclamationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconExclamationView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconExclamationView.swift; sourceTree = "<group>"; };
-		9AF6548448C5757FC5DAEF32BB8CC4E3 /* SPAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertView.swift; path = Source/SPAlert/Views/SPAlertView.swift; sourceTree = "<group>"; };
-		9C48CE87BD449299053A622F7715D639 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		8987E4DE46597936C4AB9135EC1384BE /* NCMBAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnalytics.m; path = NCMB/NCMBAnalytics.m; sourceTree = "<group>"; };
+		8AD31C1F582726857EF3E230017F7519 /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Subclass.h"; path = "NCMB/NCMBObject+Subclass.h"; sourceTree = "<group>"; };
+		8B2E9F6663F0D743C010EFE0114A8A45 /* SPAlertIconDocView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDocView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconDocView.swift; sourceTree = "<group>"; };
+		8BEE7642FAAC6DBF68B683CAEE645C5D /* NCMBCloseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBCloseImageView.m; path = NCMB/NCMBRichPush/NCMBCloseImageView.m; sourceTree = "<group>"; };
+		8D16CA392A393B19CFC398E7877464E2 /* NCMBObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Private.h"; path = "NCMB/PrivateHeaders/NCMBObject+Private.h"; sourceTree = "<group>"; };
+		8DA08C403AEA1C397A88D553051AC0C8 /* NCMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-umbrella.h"; sourceTree = "<group>"; };
+		8FBBC5438A52824CF10A1FECA9CB814E /* NCMBScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScript.m; path = NCMB/NCMBScript.m; sourceTree = "<group>"; };
+		907608592EBD85C32E0556408A7B061E /* SPAlertLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertLayout.swift; path = Source/SPAlert/Models/SPAlertLayout.swift; sourceTree = "<group>"; };
+		917609E53B6C89C3C4D70CF2CF6AF2D8 /* NCMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-prefix.pch"; sourceTree = "<group>"; };
+		99123BB0B41FF9D7B833352782C359C9 /* NCMBDateFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDateFormat.h; path = NCMB/NCMBDateFormat.h; sourceTree = "<group>"; };
+		995B2331D1B78D3C09EEFFBB272AA499 /* TransitionButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionButton.release.xcconfig; sourceTree = "<group>"; };
+		99B030D1515E278C71259B6E8991A6C9 /* NCMBRelationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelationOperation.h; path = NCMB/Operations/NCMBRelationOperation.h; sourceTree = "<group>"; };
+		99BE6FA530536BC32779A9B7079D774B /* TransitionButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionButton.debug.xcconfig; sourceTree = "<group>"; };
+		9A0C0B11E483419553343ED126123036 /* NCMBGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBGeoPoint.m; path = NCMB/NCMBGeoPoint.m; sourceTree = "<group>"; };
+		9BEE020B6BA9610EC1C8A7D75D903479 /* NCMBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRequest.h; path = NCMB/NCMBRequest/NCMBRequest.h; sourceTree = "<group>"; };
+		9D76125089F2BA704184DAFF7CA344F5 /* SPAlertIconExclamationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconExclamationView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconExclamationView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F71DDA77DE87A0B9E979498E3CD74E2 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		A0B8B998755532E6FDAB5863A2319522 /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRemoveOperation.h; path = NCMB/Operations/NCMBRemoveOperation.h; sourceTree = "<group>"; };
-		A2D0A7E3F68B75DB9E5799AE2B992E2B /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnonymousUtils.h; path = NCMB/NCMBAnonymousUtils.h; sourceTree = "<group>"; };
-		A2D30D33D34D035C52145542DB906301 /* NCMBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRequest.m; path = NCMB/NCMBRequest/NCMBRequest.m; sourceTree = "<group>"; };
-		A32F2679868019D630ECBB277D9C4188 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		A56C8D7AAAA70B42DA90EDD8977F2D4D /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddUniqueOperation.h; path = NCMB/Operations/NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
-		A8362F6399B91556AAAABE80B017964D /* NCMBURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBURLSession.m; path = NCMB/NCMBURLSession/NCMBURLSession.m; sourceTree = "<group>"; };
-		A91324C6496C6F59670E4A4FEE6AB660 /* NCMBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBInstallation.h; path = NCMB/NCMBInstallation.h; sourceTree = "<group>"; };
-		AC662388FED6CB9D1156D7DC70660C8A /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnonymousUtils.m; path = NCMB/NCMBAnonymousUtils.m; sourceTree = "<group>"; };
-		B07F5DE30C124DDE87A9FBCFB2AB14A5 /* SubClassHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubClassHandler.h; path = NCMB/SubClassHandler/SubClassHandler.h; sourceTree = "<group>"; };
-		B11D1324E53FFB443C16A8ADBE30CF1C /* NCMBRelation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBRelation+Private.h"; path = "NCMB/PrivateHeaders/NCMBRelation+Private.h"; sourceTree = "<group>"; };
-		B13BF4768181D0EBA100C26DC71F2172 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		B51F78090EE5DEDF013E73ABC983A93C /* NCMBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBReachability.h; path = NCMB/NCMBReachability/NCMBReachability.h; sourceTree = "<group>"; };
-		B5B6A83DD5FFCCA12C2C548746DF6024 /* SPAlertIconDoneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDoneView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconDoneView.swift; sourceTree = "<group>"; };
-		B60F4DE02283A8EDAB3D1867615F5828 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		9F39DAC9F27DEE9904C78D98BEDB281D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		A0307E20CD62DED72FDAD6778DA587C4 /* SPAlertIconMoonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconMoonView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconMoonView.swift; sourceTree = "<group>"; };
+		A274FCD6E6F1F7E7FAC58B48836E5075 /* NCMBQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBQuery.m; path = NCMB/NCMBQuery.m; sourceTree = "<group>"; };
+		A34FE1E1C1589CFA30AACBDE0BB21A73 /* NCMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCMB-dummy.m"; sourceTree = "<group>"; };
+		AC0FA440BB1B849D01E79D8EAAF27328 /* SPAlertIconCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconCardView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconCardView.swift; sourceTree = "<group>"; };
+		ACA618C2600382A77F62E3A41B9DA231 /* NCMBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBObject.m; path = NCMB/NCMBObject.m; sourceTree = "<group>"; };
+		AFCDD21EAD437645368F356E6B0430A4 /* NCMBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBInstallation.m; path = NCMB/NCMBInstallation.m; sourceTree = "<group>"; };
+		B102EBF26A476D4DD508343B0B9CD20B /* NCMBCloseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBCloseImageView.h; path = NCMB/NCMBRichPush/NCMBCloseImageView.h; sourceTree = "<group>"; };
+		B18D61A1838491CD6390EA3F7E9D71F1 /* NSDataBase64Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataBase64Encode.h; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.h; sourceTree = "<group>"; };
+		B28AF15D674A0AE6B567ECB00CD91ECC /* SPAlertIconDoneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDoneView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconDoneView.swift; sourceTree = "<group>"; };
+		B3C3918886FC4B34B83AE5ED140B5806 /* TransitionButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TransitionButton-Info.plist"; sourceTree = "<group>"; };
+		B3EA8051E7C3963EA361DA10AD0B8C20 /* SubClassHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubClassHandler.h; path = NCMB/SubClassHandler/SubClassHandler.h; sourceTree = "<group>"; };
+		B5CDC53157EB2B5774C32C349AF7EDCB /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		B62FC576621FDE0D1EFD8B8225BBEE30 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		B690D4DB3A48BCD17F6823851F09E6EB /* SPAlertIconBoltView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconBoltView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconBoltView.swift; sourceTree = "<group>"; };
 		B69EE06CEF4B6A6D7258B21F56DD1030 /* Pods-NCMBMemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NCMBMemo-umbrella.h"; sourceTree = "<group>"; };
-		B926A3AA3A4840D3E38D724FBE69088E /* SPAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlert.swift; path = Source/SPAlert/SPAlert.swift; sourceTree = "<group>"; };
-		BA306B3DB6227DE58DAD91691855272F /* TransitionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-umbrella.h"; sourceTree = "<group>"; };
-		BBD3BE4DEDABC6DB2DA830B94D423563 /* NCMBPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBPush.m; path = NCMB/NCMBPush.m; sourceTree = "<group>"; };
-		BD11EA8F5E2E014672FB4CAE69389E1B /* NCMBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBObject.m; path = NCMB/NCMBObject.m; sourceTree = "<group>"; };
-		BDF98846A3B978C7222B6B1C709DFE9F /* NCMBACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBACL.h; path = NCMB/NCMBACL.h; sourceTree = "<group>"; };
+		B7B2F1CD65B88418A427CB17E5FE31B1 /* NCMBRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRole.m; path = NCMB/NCMBRole.m; sourceTree = "<group>"; };
+		BCADFFE7962F54E8045758342ECE4FA1 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		BE629661A28417489F63DBC74196BBD6 /* SPAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPAlert.framework; path = SPAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFCA33D9CD95463585F339EE43BACE7 /* Pods-NCMBMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NCMBMemo.debug.xcconfig"; sourceTree = "<group>"; };
-		C3D9CBD80AFFA07F34D30C68E363EEEC /* NCMB_umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB_umbrella.h; path = NCMB/NCMB_umbrella.h; sourceTree = "<group>"; };
-		C5BAA0CBB3A01130E19EA4455410140A /* NCMBGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBGeoPoint.m; path = NCMB/NCMBGeoPoint.m; sourceTree = "<group>"; };
 		C65FA92DBA660DFFBC3E849819CE0D64 /* Pods-NCMBMemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NCMBMemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C74CD884106EB924A9A774994C0F3D1E /* NCMBRelationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelationOperation.h; path = NCMB/Operations/NCMBRelationOperation.h; sourceTree = "<group>"; };
-		C80A2AD2867AAD8293EFB7B3A7476A50 /* NSDataBase64Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataBase64Encode.m; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.m; sourceTree = "<group>"; };
-		CA22592A29ACF983EE70014AE9818BFF /* SPAlertIconPrivacyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconPrivacyView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconPrivacyView.swift; sourceTree = "<group>"; };
-		CABB66C381F8EB230B3CDB96A4664397 /* NCMBDateFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDateFormat.h; path = NCMB/NCMBDateFormat.h; sourceTree = "<group>"; };
+		C71448E4875486FDA16104AABAC8A62D /* NCMBPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBPush.m; path = NCMB/NCMBPush.m; sourceTree = "<group>"; };
+		C8490D6B2C70ECB987B266F8299794C9 /* NCMBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBUser.m; path = NCMB/NCMBUser.m; sourceTree = "<group>"; };
+		C9B93746ECF591E32C70E754E6C143AC /* NCMBQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBQuery+Private.h"; path = "NCMB/PrivateHeaders/NCMBQuery+Private.h"; sourceTree = "<group>"; };
+		C9D7F0ECC7135623BF9576D7C0C11527 /* NCMBRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRole.h; path = NCMB/NCMBRole.h; sourceTree = "<group>"; };
 		CABC31310CC33244A09A90655ADF0B79 /* Pods-NCMBMemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NCMBMemo-dummy.m"; sourceTree = "<group>"; };
+		CD1336FFC267DCE4ABDE54BF5B486490 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		CE7863835C032998BE42B3923749C373 /* Pods_NCMBMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NCMBMemo.framework; path = "Pods-NCMBMemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBCDC8316BA135F2F9DE2D2FB35155C /* NCMBObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Private.h"; path = "NCMB/PrivateHeaders/NCMBObject+Private.h"; sourceTree = "<group>"; };
-		D7A943926549043C8C49FFF63415F1DD /* NCMBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFile.h; path = NCMB/NCMBFile.h; sourceTree = "<group>"; };
-		DF1593890C75E55948CAC0657A93B880 /* NCMBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBUser.h; path = NCMB/NCMBUser.h; sourceTree = "<group>"; };
+		CEA4E5403C4224D74E92CB40B1A00290 /* NCMBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFile.h; path = NCMB/NCMBFile.h; sourceTree = "<group>"; };
+		D45F9B3ADE7CC229CF75457D6F8259C2 /* NCMBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScript.h; path = NCMB/NCMBScript.h; sourceTree = "<group>"; };
+		D727EF2C6911C8F4187DA3974B797BE5 /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = Source/SpinerLayer.swift; sourceTree = "<group>"; };
+		D7564330B25988A0F1BC2925DBF4DE26 /* SPAlertIconBookmarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconBookmarkView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconBookmarkView.swift; sourceTree = "<group>"; };
+		D7BF9B0D43F66CD3BF7AA1BD20A8057B /* NCMBDateFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDateFormat.m; path = NCMB/NCMBDateFormat.m; sourceTree = "<group>"; };
+		D8F3C4D576CFE6BFD00FEC94F923516D /* SPAlertIconLikeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconLikeView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconLikeView.swift; sourceTree = "<group>"; };
+		D92EE63A85DBAF9F563DC941C206ADE2 /* NCMBSetOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBSetOperation.m; path = NCMB/Operations/NCMBSetOperation.m; sourceTree = "<group>"; };
+		DA235E601B52116FE875EF68930186CF /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTransitionViewController.swift; path = Source/CustomTransitionViewController.swift; sourceTree = "<group>"; };
+		DBCDA8BBF5ABB8DF88964F63DDCDF3F4 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		DC9512715BC87AF25DAF544BCBD9215C /* NCMBACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBACL.m; path = NCMB/NCMBACL.m; sourceTree = "<group>"; };
+		DD294E313B773C909E89B1237FBB5BFE /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		DFC9D8B4EA63587D9D401A9D17976FC9 /* Pods-NCMBMemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NCMBMemo-Info.plist"; sourceTree = "<group>"; };
 		E0359D6C026DD5A26046CC51BB762AFE /* NCMB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NCMB.framework; path = NCMB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2684B401CB5CB830EFFBC57366513CB /* SPAlertIconLikeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconLikeView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconLikeView.swift; sourceTree = "<group>"; };
-		E327986E05396330E006A6C1F56ADAED /* NCMBAddOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddOperation.h; path = NCMB/Operations/NCMBAddOperation.h; sourceTree = "<group>"; };
-		E5F947A632EA074FC623019C9DAC5292 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		E27766F7D2D5AAC8B18785410F346905 /* NCMB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.debug.xcconfig; sourceTree = "<group>"; };
+		E3474BC66058E888CED2D170CF2E307D /* NCMBSetOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSetOperation.h; path = NCMB/Operations/NCMBSetOperation.h; sourceTree = "<group>"; };
+		E376E776192394D6162316E3289B7954 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = Source/FadeTransition.swift; sourceTree = "<group>"; };
+		E7C8F77599EACD1AB628F94B1A820EF3 /* SPAlertIconCartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconCartView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconCartView.swift; sourceTree = "<group>"; };
+		E83C1642DDC666C66968B77CA050E5D0 /* NCMBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBConstants.h; path = NCMB/NCMBConstants.h; sourceTree = "<group>"; };
+		E9384F2966A2FAF9D385D3F34C0EBF85 /* SubClassHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubClassHandler.m; path = NCMB/SubClassHandler/SubClassHandler.m; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBE5F1DD3605EB094F61525C4045CA2E /* NCMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB.h; path = NCMB/NCMB.h; sourceTree = "<group>"; };
-		EC917E3DD4D71FDD54A41F492DF41833 /* SPAlertIconErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconErrorView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconErrorView.swift; sourceTree = "<group>"; };
-		ED3CC418E6ED0AC87D98967B5B534BE0 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		ED81D0D132D8AED56B12E208D71C4E77 /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTransitionViewController.swift; path = Source/CustomTransitionViewController.swift; sourceTree = "<group>"; };
+		EA711F42AA8B94EB84096AEB58BB74C8 /* NCMBURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBURLSession.m; path = NCMB/NCMBURLSession/NCMBURLSession.m; sourceTree = "<group>"; };
+		EB5E29768792E026CE15333D12C747BA /* NCMBACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBACL.h; path = NCMB/NCMBACL.h; sourceTree = "<group>"; };
+		ED137A3C4D19CCA0C07622128179F4ED /* NCMBQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBQuery.h; path = NCMB/NCMBQuery.h; sourceTree = "<group>"; };
 		EDDCEB084EC14CD38C01B40F9BD461A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EECC3DDA385863861821D9C9B4D2F30C /* TransitionButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TransitionButton-Info.plist"; sourceTree = "<group>"; };
-		F020C945E43C4E3E97D06A14FFB4DC6A /* SPAlertIconQuestionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconQuestionView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconQuestionView.swift; sourceTree = "<group>"; };
-		F128881BE566472AF960F7F03019590D /* NCMBRichPushView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRichPushView.h; path = NCMB/NCMBRichPush/NCMBRichPushView.h; sourceTree = "<group>"; };
-		F7E078E17468A4C8E8607D2B628346FA /* NCMBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBReachability.m; path = NCMB/NCMBReachability/NCMBReachability.m; sourceTree = "<group>"; };
-		F7E144EFE47234FFD52F0ACDF73002EC /* SPAlertIconStarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconStarView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconStarView.swift; sourceTree = "<group>"; };
-		FAE489B6402EE06D04B5DEDB49D4FD80 /* SPAlertIconEjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconEjectView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconEjectView.swift; sourceTree = "<group>"; };
-		FB5CBD980DF15A6EC16E518F7490F3E0 /* SPAlertIconRotateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconRotateView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconRotateView.swift; sourceTree = "<group>"; };
-		FBC4047047193FCBAE458BA602A8A8E6 /* NCMBScriptService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScriptService.h; path = NCMB/NCMBScriptService/NCMBScriptService.h; sourceTree = "<group>"; };
-		FD7B12EA2D1F1ACA88BDE8C6B0B72024 /* NCMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-prefix.pch"; sourceTree = "<group>"; };
-		FDB3EE392004BEFA45AEE14071669EA3 /* SubClassHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubClassHandler.m; path = NCMB/SubClassHandler/SubClassHandler.m; sourceTree = "<group>"; };
+		EE3C457711ACDC942A1F612CBB72EB04 /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDeleteOperation.m; path = NCMB/Operations/NCMBDeleteOperation.m; sourceTree = "<group>"; };
+		EFA2F663DE7C66374FF0439CADF2EA06 /* SPAlertHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertHaptic.swift; path = Source/SPAlert/Models/SPAlertHaptic.swift; sourceTree = "<group>"; };
+		EFEB4456A7898FC23ADC713BCCAA814A /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		F17D5D38FE3C9D5469D79530D4CB680B /* NCMBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRequest.m; path = NCMB/NCMBRequest/NCMBRequest.m; sourceTree = "<group>"; };
+		F1E3228BD1037122F40C7B21DC45004F /* NCMB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.release.xcconfig; sourceTree = "<group>"; };
+		F1ED3F538B1CED26E7C30FE5B437B3C0 /* NCMBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBError.h; path = NCMB/NCMBError.h; sourceTree = "<group>"; };
+		F2CC94162DFE78B621FB0F4E67E105B8 /* NCMBRichPushView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRichPushView.h; path = NCMB/NCMBRichPush/NCMBRichPushView.h; sourceTree = "<group>"; };
+		F61559FD6EAAB5540A6FA62405CE967E /* SPAlertIconEjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconEjectView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconEjectView.swift; sourceTree = "<group>"; };
+		F704934CBC3FC464A403E603F3418AFE /* NCMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB.h; path = NCMB/NCMB.h; sourceTree = "<group>"; };
+		F98E5149B1BD03ABEBAE6942A0265055 /* TransitionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionButton-dummy.m"; sourceTree = "<group>"; };
+		FB56CDCA2D45F326200C717F078BF7A7 /* SPAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-prefix.pch"; sourceTree = "<group>"; };
 		FE2720063FD924F481CB73E82F036DB8 /* Pods-NCMBMemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NCMBMemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE90F19F7B13D8E4E292104092CED290 /* NCMBRelationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelationOperation.m; path = NCMB/Operations/NCMBRelationOperation.m; sourceTree = "<group>"; };
 		FFC31555BD3C7EB32AC589C735F7B818 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -387,6 +391,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0359B3652A1D43649BCAB17A34497E70 /* TransitionButton */ = {
+			isa = PBXGroup;
+			children = (
+				0B056CFAA85DEDAA3E6061B2230187D1 /* CGRectExtension.swift */,
+				DA235E601B52116FE875EF68930186CF /* CustomTransitionViewController.swift */,
+				E376E776192394D6162316E3289B7954 /* FadeTransition.swift */,
+				D727EF2C6911C8F4187DA3974B797BE5 /* SpinerLayer.swift */,
+				744EC953F57FBB80D3D3D96C7BBC0ED5 /* TransitionButton.swift */,
+				5627C17C817F857C584B237BD7CD5425 /* Support Files */,
+			);
+			name = TransitionButton;
+			path = TransitionButton;
+			sourceTree = "<group>";
+		};
+		0A03BD7ACC05C1AADD823AFF7341DC60 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0504B37EDAE6A05B69F4D58EF267BDB6 /* SVIndefiniteAnimatedView.h */,
+				0B12A7D52C25BF630C5861906443E6A1 /* SVIndefiniteAnimatedView.m */,
+				471D9E7479E45810A939588C105A301B /* SVProgressAnimatedView.h */,
+				B5CDC53157EB2B5774C32C349AF7EDCB /* SVProgressAnimatedView.m */,
+				9F39DAC9F27DEE9904C78D98BEDB281D /* SVProgressHUD.h */,
+				BCADFFE7962F54E8045758342ECE4FA1 /* SVProgressHUD.m */,
+				6BC44DB2A541A70227FCAC4D2EDC55B7 /* SVRadialGradientLayer.h */,
+				7319F32FF2F92FBCD666F12335A02F19 /* SVRadialGradientLayer.m */,
+				57507C93CB8B0338C19FFD60D3D5A781 /* Resources */,
+				9F78C2ADC3A67716B7DD8D5F73C79205 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		11B1053D3F1062D7ACA8DE9C1FA6AB9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9182585448818522BAB615A61949BA /* NCMB.modulemap */,
+				A34FE1E1C1589CFA30AACBDE0BB21A73 /* NCMB-dummy.m */,
+				812A195A7BB26EE39292E5D06D77FC71 /* NCMB-Info.plist */,
+				917609E53B6C89C3C4D70CF2CF6AF2D8 /* NCMB-prefix.pch */,
+				8DA08C403AEA1C397A88D553051AC0C8 /* NCMB-umbrella.h */,
+				E27766F7D2D5AAC8B18785410F346905 /* NCMB.debug.xcconfig */,
+				F1E3228BD1037122F40C7B21DC45004F /* NCMB.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NCMB";
+			sourceTree = "<group>";
+		};
 		2CE97A444ECB31F9A49F7303AC4F0407 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,6 +467,44 @@
 			path = "Target Support Files/Pods-NCMBMemo";
 			sourceTree = "<group>";
 		};
+		3335F96E25F45711A302C5D722ADE060 /* SPAlert */ = {
+			isa = PBXGroup;
+			children = (
+				6E3B5913F836A3E47E51676A06DE6702 /* SPAlert.swift */,
+				EFA2F663DE7C66374FF0439CADF2EA06 /* SPAlertHaptic.swift */,
+				29A120465543ADE296E03332BFCD840D /* SPAlertIconAddView.swift */,
+				30004EFAA44805C880EBECBBC7625761 /* SPAlertIconAnimatable.swift */,
+				B690D4DB3A48BCD17F6823851F09E6EB /* SPAlertIconBoltView.swift */,
+				D7564330B25988A0F1BC2925DBF4DE26 /* SPAlertIconBookmarkView.swift */,
+				AC0FA440BB1B849D01E79D8EAAF27328 /* SPAlertIconCardView.swift */,
+				E7C8F77599EACD1AB628F94B1A820EF3 /* SPAlertIconCartView.swift */,
+				3F7541245A60354587B8CD188DF7E96D /* SPAlertIconDislikeView.swift */,
+				8B2E9F6663F0D743C010EFE0114A8A45 /* SPAlertIconDocView.swift */,
+				B28AF15D674A0AE6B567ECB00CD91ECC /* SPAlertIconDoneView.swift */,
+				F61559FD6EAAB5540A6FA62405CE967E /* SPAlertIconEjectView.swift */,
+				707E0D34834D32512436958815970EB6 /* SPAlertIconErrorView.swift */,
+				9D76125089F2BA704184DAFF7CA344F5 /* SPAlertIconExclamationView.swift */,
+				4F89174C2195F7036C19001BCF6AB104 /* SPAlertIconFlagView.swift */,
+				64728622CF745EA8DC0BE1AE995920C3 /* SPAlertIconHeartView.swift */,
+				D8F3C4D576CFE6BFD00FEC94F923516D /* SPAlertIconLikeView.swift */,
+				6BA19F606DE21E702D1E315F28EE4F1E /* SPAlertIconMagicView.swift */,
+				6B39A339D263ED2D0B91DD1BD7D042C4 /* SPAlertIconMessageView.swift */,
+				A0307E20CD62DED72FDAD6778DA587C4 /* SPAlertIconMoonView.swift */,
+				4082C059B701747EC2D896B8076BCFDB /* SPAlertIconPrivacyView.swift */,
+				5E84181CD63823200A7E76BAC0CB7D3A /* SPAlertIconQuestionView.swift */,
+				69E22D33FABF633368BD00915BA8281E /* SPAlertIconRepeatView.swift */,
+				21C8B271257A4D59CFAA94EB1DD5F3FC /* SPAlertIconRotateView.swift */,
+				3705EFC5CA12F78DC197D04464762FFD /* SPAlertIconShuffleView.swift */,
+				5337FC97779034185DC4042647BD0180 /* SPAlertIconStarView.swift */,
+				907608592EBD85C32E0556408A7B061E /* SPAlertLayout.swift */,
+				123B9BDC9BD1BCE60EB7A35A9DBA3097 /* SPAlertPreset.swift */,
+				10EB4A0795C1A257CD6D7C7CFAA480BF /* SPAlertView.swift */,
+				FAA8D84FCB669C70DD631A02164C0FED /* Support Files */,
+			);
+			name = SPAlert;
+			path = SPAlert;
+			sourceTree = "<group>";
+		};
 		38B24CE5BCC9C516A566DC00EAA7115F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,183 +521,129 @@
 		4843B37315BB5997D369D08DE9099880 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B06E7E2066511F4F033FB8A7045FE68A /* NCMB */,
-				4984F71CBDAF01B7C0911D68790189CD /* SPAlert */,
-				A42DD9B74494FDEB003C7616F9B97618 /* SVProgressHUD */,
-				E8D0162FAE9121099186B45A46D6AB76 /* TransitionButton */,
+				6CA5FD0C8B1690D155D174998EB33C32 /* NCMB */,
+				3335F96E25F45711A302C5D722ADE060 /* SPAlert */,
+				0A03BD7ACC05C1AADD823AFF7341DC60 /* SVProgressHUD */,
+				0359B3652A1D43649BCAB17A34497E70 /* TransitionButton */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4984F71CBDAF01B7C0911D68790189CD /* SPAlert */ = {
+		5627C17C817F857C584B237BD7CD5425 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B926A3AA3A4840D3E38D724FBE69088E /* SPAlert.swift */,
-				8D316503B857854E7581C3FD69D240B4 /* SPAlertHaptic.swift */,
-				64C3BDC85F1B0539173173108AF2CAD3 /* SPAlertIconAddView.swift */,
-				63C4653DFACAFC71168DBCA5AC20C8A2 /* SPAlertIconAnimatable.swift */,
-				6830D00122B0A8588550221EB8546063 /* SPAlertIconBoltView.swift */,
-				57D505036DBFDBBB0171C3055D9CF0F9 /* SPAlertIconBookmarkView.swift */,
-				0D7F03A3869D7888749F1CF5CD761C46 /* SPAlertIconCardView.swift */,
-				23592330C3A5984BA8224EF71993A31A /* SPAlertIconCartView.swift */,
-				0DD8A852BFCB051DAF3E5DCDDB796124 /* SPAlertIconDislikeView.swift */,
-				533B68377F2B56918852D279D4DC064B /* SPAlertIconDocView.swift */,
-				B5B6A83DD5FFCCA12C2C548746DF6024 /* SPAlertIconDoneView.swift */,
-				FAE489B6402EE06D04B5DEDB49D4FD80 /* SPAlertIconEjectView.swift */,
-				EC917E3DD4D71FDD54A41F492DF41833 /* SPAlertIconErrorView.swift */,
-				99D4850793C7DED1DD5920BA668BCB6C /* SPAlertIconExclamationView.swift */,
-				446552ED5B725A454AF4238BAAE88254 /* SPAlertIconFlagView.swift */,
-				1587144507F23D7893751C0CCB50FFCB /* SPAlertIconHeartView.swift */,
-				E2684B401CB5CB830EFFBC57366513CB /* SPAlertIconLikeView.swift */,
-				68349922D8D3407D6BFB5F16B6990C8B /* SPAlertIconMagicView.swift */,
-				6C37EEBF0C01C34090837DD20D386531 /* SPAlertIconMessageView.swift */,
-				0F76FBD430B53FB8680C3D395208020C /* SPAlertIconMoonView.swift */,
-				CA22592A29ACF983EE70014AE9818BFF /* SPAlertIconPrivacyView.swift */,
-				F020C945E43C4E3E97D06A14FFB4DC6A /* SPAlertIconQuestionView.swift */,
-				9990AEEB7765E3FF58B7D0CA379B414D /* SPAlertIconRepeatView.swift */,
-				FB5CBD980DF15A6EC16E518F7490F3E0 /* SPAlertIconRotateView.swift */,
-				31D751BA1620C0C57A2A12CCDA7C0EAF /* SPAlertIconShuffleView.swift */,
-				F7E144EFE47234FFD52F0ACDF73002EC /* SPAlertIconStarView.swift */,
-				66848CBCA18FF8728AEA821BBFB57A1E /* SPAlertLayout.swift */,
-				778485042AF367C13A5A7DFBE12D64B5 /* SPAlertPreset.swift */,
-				9AF6548448C5757FC5DAEF32BB8CC4E3 /* SPAlertView.swift */,
-				4AC2660039DE15E7D7D666FA531B2B43 /* Support Files */,
-			);
-			name = SPAlert;
-			path = SPAlert;
-			sourceTree = "<group>";
-		};
-		4AC2660039DE15E7D7D666FA531B2B43 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1078B116CC4E1A485E5A91615C91F79C /* SPAlert.modulemap */,
-				2AAE11DF3DBFE52FD38F3BD3D6662ED0 /* SPAlert.xcconfig */,
-				467F36D4F548B7B2E3224D66E73A433A /* SPAlert-dummy.m */,
-				77D0ED7999ACD5E87C522BE1B67D623D /* SPAlert-Info.plist */,
-				97F964910A565FEF0B87494E7E5DF6A2 /* SPAlert-prefix.pch */,
-				80EAA77047CFD9B8DE6F80D326D4D6BA /* SPAlert-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SPAlert";
-			sourceTree = "<group>";
-		};
-		7646829E32E22BF38DAD7F3BB5CA7BD6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				95F1068DEE9672A15CEA14185A5393DC /* TransitionButton.modulemap */,
-				7B4E2360BA78173491DD69365E0DFAA4 /* TransitionButton.xcconfig */,
-				73AA69C493FE76A8633C217995CA0056 /* TransitionButton-dummy.m */,
-				EECC3DDA385863861821D9C9B4D2F30C /* TransitionButton-Info.plist */,
-				0A3D0A8FC3883D889A8A2DB6D0375485 /* TransitionButton-prefix.pch */,
-				BA306B3DB6227DE58DAD91691855272F /* TransitionButton-umbrella.h */,
+				178216C4425BF9A12FED0DF81F9AEA12 /* TransitionButton.modulemap */,
+				F98E5149B1BD03ABEBAE6942A0265055 /* TransitionButton-dummy.m */,
+				B3C3918886FC4B34B83AE5ED140B5806 /* TransitionButton-Info.plist */,
+				640EF85B86A5F08ECCAF4962E890C6C8 /* TransitionButton-prefix.pch */,
+				83542F6B238A391D4E4567A6BB0C76B5 /* TransitionButton-umbrella.h */,
+				99BE6FA530536BC32779A9B7079D774B /* TransitionButton.debug.xcconfig */,
+				995B2331D1B78D3C09EEFFBB272AA499 /* TransitionButton.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TransitionButton";
 			sourceTree = "<group>";
 		};
-		A42DD9B74494FDEB003C7616F9B97618 /* SVProgressHUD */ = {
+		57507C93CB8B0338C19FFD60D3D5A781 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A32F2679868019D630ECBB277D9C4188 /* SVIndefiniteAnimatedView.h */,
-				37F45ABED10520CAD799547E765F8455 /* SVIndefiniteAnimatedView.m */,
-				E5F947A632EA074FC623019C9DAC5292 /* SVProgressAnimatedView.h */,
-				9C48CE87BD449299053A622F7715D639 /* SVProgressAnimatedView.m */,
-				85460808E18F34A1B6B117FF412A4099 /* SVProgressHUD.h */,
-				144F74978DAE7D69340FCAEA109AC42F /* SVProgressHUD.m */,
-				23D810D85F57D4717A6D7440F2867C79 /* SVRadialGradientLayer.h */,
-				ED3CC418E6ED0AC87D98967B5B534BE0 /* SVRadialGradientLayer.m */,
-				AA3FC6CA62069DB715AF77BA2A107B7F /* Resources */,
-				D9533BF235F538A1F14DD58AD94289A9 /* Support Files */,
-			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		AA3FC6CA62069DB715AF77BA2A107B7F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9F71DDA77DE87A0B9E979498E3CD74E2 /* SVProgressHUD.bundle */,
+				CD1336FFC267DCE4ABDE54BF5B486490 /* SVProgressHUD.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		B06E7E2066511F4F033FB8A7045FE68A /* NCMB */ = {
+		6CA5FD0C8B1690D155D174998EB33C32 /* NCMB */ = {
 			isa = PBXGroup;
 			children = (
-				EBE5F1DD3605EB094F61525C4045CA2E /* NCMB.h */,
-				5E645EBE513105E312DF8372D3A66D9A /* NCMB.m */,
-				C3D9CBD80AFFA07F34D30C68E363EEEC /* NCMB_umbrella.h */,
-				BDF98846A3B978C7222B6B1C709DFE9F /* NCMBACL.h */,
-				0BD8E30D0766EC2B1DD29173EDD228F4 /* NCMBACL.m */,
-				E327986E05396330E006A6C1F56ADAED /* NCMBAddOperation.h */,
-				72224D147B11FBC8D4C5FB6CDBBFBAEA /* NCMBAddOperation.m */,
-				A56C8D7AAAA70B42DA90EDD8977F2D4D /* NCMBAddUniqueOperation.h */,
-				9635D56D954306EF901D29C65236BE85 /* NCMBAddUniqueOperation.m */,
-				195748B1B60DF22144CE5E7B212E15B2 /* NCMBAnalytics.h */,
-				268CB487573D3C8104AF0DE18AEC00FA /* NCMBAnalytics.m */,
-				A2D0A7E3F68B75DB9E5799AE2B992E2B /* NCMBAnonymousUtils.h */,
-				AC662388FED6CB9D1156D7DC70660C8A /* NCMBAnonymousUtils.m */,
-				43623D0E4F6B524C6178796A436637DF /* NCMBCloseImageView.h */,
-				186B19CE6001E1FC5EC902F7A0B9C6F6 /* NCMBCloseImageView.m */,
-				64396A9F535191B3F68830EBFD3EEBF0 /* NCMBConstants.h */,
-				CABB66C381F8EB230B3CDB96A4664397 /* NCMBDateFormat.h */,
-				6A864D81554AB00E6D32DDEAB2E471D7 /* NCMBDateFormat.m */,
-				66D68347C625828C8B54944F424CF4DA /* NCMBDeleteOperation.h */,
-				2DD6BEC16BB23ED2C94A7A50F0CE058D /* NCMBDeleteOperation.m */,
-				26E348D8431B1FEB714DDF2331578788 /* NCMBError.h */,
-				5877C3B59F583152F92E1294EF753D05 /* NCMBError.m */,
-				D7A943926549043C8C49FFF63415F1DD /* NCMBFile.h */,
-				01794F41C706EE37C8B8EB445E0115FA /* NCMBFile.m */,
-				4F9E687FC25294862828CD49DCFEC988 /* NCMBGeoPoint.h */,
-				C5BAA0CBB3A01130E19EA4455410140A /* NCMBGeoPoint.m */,
-				529DF158CC19BF1F3260A4A183F4AC18 /* NCMBIncrementOperation.h */,
-				9889025DC4D5B0A1CEBAA38656A52848 /* NCMBIncrementOperation.m */,
-				A91324C6496C6F59670E4A4FEE6AB660 /* NCMBInstallation.h */,
-				77893D6F7E72F1749780A23C5DCF77E7 /* NCMBInstallation.m */,
-				4FB381F85C4D6EAD56D604515B530D2F /* NCMBObject.h */,
-				BD11EA8F5E2E014672FB4CAE69389E1B /* NCMBObject.m */,
-				CEBCDC8316BA135F2F9DE2D2FB35155C /* NCMBObject+Private.h */,
-				19C8C1F0B70D998B661CEDD51C475E95 /* NCMBObject+Subclass.h */,
-				6B70DD22CC2EE726B59D1635ED46CEA5 /* NCMBPush.h */,
-				BBD3BE4DEDABC6DB2DA830B94D423563 /* NCMBPush.m */,
-				59162297BFC817A0C2323F8E5D1AF06B /* NCMBQuery.h */,
-				1D69F464A42A1FFEE60468589903FA71 /* NCMBQuery.m */,
-				87A7C09B79E394781AF9BBC7A6B2B2C6 /* NCMBQuery+Private.h */,
-				B51F78090EE5DEDF013E73ABC983A93C /* NCMBReachability.h */,
-				F7E078E17468A4C8E8607D2B628346FA /* NCMBReachability.m */,
-				4E943607E92580FFF9F2FBFF70731259 /* NCMBRelation.h */,
-				43BA181C4DAC053743C9E0D43708CB93 /* NCMBRelation.m */,
-				B11D1324E53FFB443C16A8ADBE30CF1C /* NCMBRelation+Private.h */,
-				C74CD884106EB924A9A774994C0F3D1E /* NCMBRelationOperation.h */,
-				FE90F19F7B13D8E4E292104092CED290 /* NCMBRelationOperation.m */,
-				A0B8B998755532E6FDAB5863A2319522 /* NCMBRemoveOperation.h */,
-				22EA72256F2B7053490F0449678501E0 /* NCMBRemoveOperation.m */,
-				0A4851B3E9D6A93D3A932E2846ADF532 /* NCMBRequest.h */,
-				A2D30D33D34D035C52145542DB906301 /* NCMBRequest.m */,
-				F128881BE566472AF960F7F03019590D /* NCMBRichPushView.h */,
-				5AFC0C1FF67CB0CB900656B50FF1342F /* NCMBRichPushView.m */,
-				4D979430E119D1BEF4FCCD9ED4088BA1 /* NCMBRole.h */,
-				67163D8091D2AF104633DB8A00E829F0 /* NCMBRole.m */,
-				0743B62A3947A0265983F7D47C6131AD /* NCMBScript.h */,
-				371AC55D74F25C64F6CCC0C1AE3967AA /* NCMBScript.m */,
-				FBC4047047193FCBAE458BA602A8A8E6 /* NCMBScriptService.h */,
-				8305869405705AED6473BE4620F68613 /* NCMBScriptService.m */,
-				4CE8291115DCF388C1E6F37AEC1C2259 /* NCMBSetOperation.h */,
-				056257177AD5070BFC03B07FB5C259C4 /* NCMBSetOperation.m */,
-				61FC560FBAA8A903AE7C0867954A7DC5 /* NCMBSubclassing.h */,
-				73300827533D602796CC09D431383CAE /* NCMBURLSession.h */,
-				A8362F6399B91556AAAABE80B017964D /* NCMBURLSession.m */,
-				DF1593890C75E55948CAC0657A93B880 /* NCMBUser.h */,
-				23C21ADEDA0CD6C078C50D8CD47C9C18 /* NCMBUser.m */,
-				1314B46C6EF67A6A1294A6891AF9BFB9 /* NCMBUser+Private.h */,
-				7DE33CE26C57911179861C7B6AFF2825 /* NSDataBase64Encode.h */,
-				C80A2AD2867AAD8293EFB7B3A7476A50 /* NSDataBase64Encode.m */,
-				B07F5DE30C124DDE87A9FBCFB2AB14A5 /* SubClassHandler.h */,
-				FDB3EE392004BEFA45AEE14071669EA3 /* SubClassHandler.m */,
-				C29F43A52931B9F6CAF6E1F908874870 /* Support Files */,
+				F704934CBC3FC464A403E603F3418AFE /* NCMB.h */,
+				6B22E689BF2E6E9A3A140BDF5859BBD6 /* NCMB.m */,
+				7CDB6DD949CB8AD35EFE59163792B9F9 /* NCMB_umbrella.h */,
+				EB5E29768792E026CE15333D12C747BA /* NCMBACL.h */,
+				DC9512715BC87AF25DAF544BCBD9215C /* NCMBACL.m */,
+				85BD715881C09E588A452FCB92DE6011 /* NCMBAddOperation.h */,
+				85203E46E5D30FDC5F7E966C9A2AD6B7 /* NCMBAddOperation.m */,
+				71B31A5C16E6172E31E40AC1F7353647 /* NCMBAddUniqueOperation.h */,
+				858328B577F3623F73813FA0536D2EA9 /* NCMBAddUniqueOperation.m */,
+				7F5EAEE9FF27D406E5E89DBB4A47BBC7 /* NCMBAnalytics.h */,
+				8987E4DE46597936C4AB9135EC1384BE /* NCMBAnalytics.m */,
+				062C7B6FCFF3061951A109555AF0F862 /* NCMBAnonymousUtils.h */,
+				5B227ED10B50F3B085CCE1470C153ADD /* NCMBAnonymousUtils.m */,
+				B102EBF26A476D4DD508343B0B9CD20B /* NCMBCloseImageView.h */,
+				8BEE7642FAAC6DBF68B683CAEE645C5D /* NCMBCloseImageView.m */,
+				E83C1642DDC666C66968B77CA050E5D0 /* NCMBConstants.h */,
+				99123BB0B41FF9D7B833352782C359C9 /* NCMBDateFormat.h */,
+				D7BF9B0D43F66CD3BF7AA1BD20A8057B /* NCMBDateFormat.m */,
+				034FF8844FF3742D1E09FAE9C13BB47E /* NCMBDeleteOperation.h */,
+				EE3C457711ACDC942A1F612CBB72EB04 /* NCMBDeleteOperation.m */,
+				F1ED3F538B1CED26E7C30FE5B437B3C0 /* NCMBError.h */,
+				65970565C3E77DF403D36DD9469C7F21 /* NCMBError.m */,
+				CEA4E5403C4224D74E92CB40B1A00290 /* NCMBFile.h */,
+				5DA3892CE1D89C9920DE039AACABDD00 /* NCMBFile.m */,
+				612CF7AB453165063403F1321D439D92 /* NCMBGeoPoint.h */,
+				9A0C0B11E483419553343ED126123036 /* NCMBGeoPoint.m */,
+				7935CDE10445B743E17B9D2FA7FB66EB /* NCMBIncrementOperation.h */,
+				0CE562C1640F4CA28149F35D006227FF /* NCMBIncrementOperation.m */,
+				70638E7862255F454B1A2627C1582FAC /* NCMBInstallation.h */,
+				AFCDD21EAD437645368F356E6B0430A4 /* NCMBInstallation.m */,
+				6FD68A7CAC8E13B8DFE21E6B2D864DA0 /* NCMBObject.h */,
+				ACA618C2600382A77F62E3A41B9DA231 /* NCMBObject.m */,
+				8D16CA392A393B19CFC398E7877464E2 /* NCMBObject+Private.h */,
+				8AD31C1F582726857EF3E230017F7519 /* NCMBObject+Subclass.h */,
+				4EB984B5393FBA6D027039DFFD152E77 /* NCMBPush.h */,
+				C71448E4875486FDA16104AABAC8A62D /* NCMBPush.m */,
+				ED137A3C4D19CCA0C07622128179F4ED /* NCMBQuery.h */,
+				A274FCD6E6F1F7E7FAC58B48836E5075 /* NCMBQuery.m */,
+				C9B93746ECF591E32C70E754E6C143AC /* NCMBQuery+Private.h */,
+				5E634661627A2EBEE194A92A5243014D /* NCMBReachability.h */,
+				392F56D7FB93082DFA48B6A8F9C3A15E /* NCMBReachability.m */,
+				58C77C0471D7BBC9D783F90511BB1388 /* NCMBRelation.h */,
+				22192707D75322A6B5CB9C76829EE462 /* NCMBRelation.m */,
+				6195516CAA9E0B31BAB1711F7BCE846B /* NCMBRelation+Private.h */,
+				99B030D1515E278C71259B6E8991A6C9 /* NCMBRelationOperation.h */,
+				18C34EB0A3E83FBC4FAE5841808F6226 /* NCMBRelationOperation.m */,
+				3FD530CCA3BE9F6FF1094387E64F8282 /* NCMBRemoveOperation.h */,
+				58C052895F838564F6DC14E1283A1161 /* NCMBRemoveOperation.m */,
+				9BEE020B6BA9610EC1C8A7D75D903479 /* NCMBRequest.h */,
+				F17D5D38FE3C9D5469D79530D4CB680B /* NCMBRequest.m */,
+				F2CC94162DFE78B621FB0F4E67E105B8 /* NCMBRichPushView.h */,
+				0E544C3EDB81A4547317BAFFA13AE623 /* NCMBRichPushView.m */,
+				C9D7F0ECC7135623BF9576D7C0C11527 /* NCMBRole.h */,
+				B7B2F1CD65B88418A427CB17E5FE31B1 /* NCMBRole.m */,
+				D45F9B3ADE7CC229CF75457D6F8259C2 /* NCMBScript.h */,
+				8FBBC5438A52824CF10A1FECA9CB814E /* NCMBScript.m */,
+				6951FF0C7379F464476CA56A24F298C4 /* NCMBScriptService.h */,
+				2B7C4C9AEABDED1D74DA688F3FFF8617 /* NCMBScriptService.m */,
+				E3474BC66058E888CED2D170CF2E307D /* NCMBSetOperation.h */,
+				D92EE63A85DBAF9F563DC941C206ADE2 /* NCMBSetOperation.m */,
+				404BE5651D570C08FEA42F65147EED6D /* NCMBSubclassing.h */,
+				6FFF67041E739EB26BC3DD2949181658 /* NCMBURLSession.h */,
+				EA711F42AA8B94EB84096AEB58BB74C8 /* NCMBURLSession.m */,
+				41D26266B8D40B9C18131A1F032EF699 /* NCMBUser.h */,
+				C8490D6B2C70ECB987B266F8299794C9 /* NCMBUser.m */,
+				795A77737C7C94EBBE8FB7A258979F60 /* NCMBUser+Private.h */,
+				B18D61A1838491CD6390EA3F7E9D71F1 /* NSDataBase64Encode.h */,
+				49302B07DD6807A76AC13BD65E87E86E /* NSDataBase64Encode.m */,
+				B3EA8051E7C3963EA361DA10AD0B8C20 /* SubClassHandler.h */,
+				E9384F2966A2FAF9D385D3F34C0EBF85 /* SubClassHandler.m */,
+				11B1053D3F1062D7ACA8DE9C1FA6AB9A /* Support Files */,
 			);
 			name = NCMB;
 			path = NCMB;
+			sourceTree = "<group>";
+		};
+		9F78C2ADC3A67716B7DD8D5F73C79205 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBCDA8BBF5ABB8DF88964F63DDCDF3F4 /* SVProgressHUD.modulemap */,
+				33555F96D03B30A420CD8F1AA2A75416 /* SVProgressHUD-dummy.m */,
+				EFEB4456A7898FC23ADC713BCCAA814A /* SVProgressHUD-Info.plist */,
+				6B4335EF48C024364421B14FDF32F044 /* SVProgressHUD-prefix.pch */,
+				4F0D5733342DB721BEF452EDE1DF4BE1 /* SVProgressHUD-umbrella.h */,
+				56110E01BCD3215EC085BB53136EAEAE /* SVProgressHUD.debug.xcconfig */,
+				DD294E313B773C909E89B1237FBB5BFE /* SVProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		B831F5A95CC9ACB4CADA1206123BC179 /* Targets Support Files */ = {
@@ -617,20 +652,6 @@
 				329659FA430C11C17DF5C5EBCAE05877 /* Pods-NCMBMemo */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C29F43A52931B9F6CAF6E1F908874870 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				06A5CE54DD1B90D5A4F79A7E44B6CFF8 /* NCMB.modulemap */,
-				11CF4BF515D7BAE2226A22F898429C8B /* NCMB.xcconfig */,
-				76843E0632D55E5CCA56C8C8C5D83F25 /* NCMB-dummy.m */,
-				0ED427C589A42B6FDF66ABDA9ABB9ABC /* NCMB-Info.plist */,
-				FD7B12EA2D1F1ACA88BDE8C6B0B72024 /* NCMB-prefix.pch */,
-				4348417DD7592881B0CE65C688A5C27E /* NCMB-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/NCMB";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -652,32 +673,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9533BF235F538A1F14DD58AD94289A9 /* Support Files */ = {
+		FAA8D84FCB669C70DD631A02164C0FED /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2CD0722440BCA90E63DD8585B29F5AA1 /* SVProgressHUD.modulemap */,
-				65328ACACE950CDB36E2F3C7EEC650AC /* SVProgressHUD.xcconfig */,
-				05309EBDE91BA9C8E6DDD47229824594 /* SVProgressHUD-dummy.m */,
-				B13BF4768181D0EBA100C26DC71F2172 /* SVProgressHUD-Info.plist */,
-				0EDE83246088372FC77B2013736D2A52 /* SVProgressHUD-prefix.pch */,
-				B60F4DE02283A8EDAB3D1867615F5828 /* SVProgressHUD-umbrella.h */,
+				2676D29A4A2785460FDC47AA897200E5 /* SPAlert.modulemap */,
+				5B388CB50D09F01EBD4F6F04D4B8518C /* SPAlert-dummy.m */,
+				2C00A7C1B12DFCC4125F292EA1123472 /* SPAlert-Info.plist */,
+				FB56CDCA2D45F326200C717F078BF7A7 /* SPAlert-prefix.pch */,
+				052B5B421D4C51AF745CBAE566CBF45A /* SPAlert-umbrella.h */,
+				1D031DD7F83B480421E7DFAD0B17CA90 /* SPAlert.debug.xcconfig */,
+				3707809B86F226F1FBCD2C0D09215882 /* SPAlert.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
-			sourceTree = "<group>";
-		};
-		E8D0162FAE9121099186B45A46D6AB76 /* TransitionButton */ = {
-			isa = PBXGroup;
-			children = (
-				246CDFA8D2588B7A20E2A737F00F8AFD /* CGRectExtension.swift */,
-				ED81D0D132D8AED56B12E208D71C4E77 /* CustomTransitionViewController.swift */,
-				5F83C9227298D8EFC610038421B6C034 /* FadeTransition.swift */,
-				782B1B6B6AFADC78742A3F64641BE6D2 /* SpinerLayer.swift */,
-				66118AA19AB268C97C66030BC60C9F1C /* TransitionButton.swift */,
-				7646829E32E22BF38DAD7F3BB5CA7BD6 /* Support Files */,
-			);
-			name = TransitionButton;
-			path = TransitionButton;
+			path = "../Target Support Files/SPAlert";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1073,285 +1081,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		093BF286411A787ACB2ADC9A94510F26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 897BB0F1917CE9659BA6F71DAA0FB412 /* Pods-NCMBMemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		210AF6AAC6F96497B4F9321E859A23DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AAE11DF3DBFE52FD38F3BD3D6662ED0 /* SPAlert.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SPAlert/SPAlert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SPAlert/SPAlert-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SPAlert/SPAlert.modulemap";
-				PRODUCT_MODULE_NAME = SPAlert;
-				PRODUCT_NAME = SPAlert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		28C23F839F08DF520D1306007AE39E30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11CF4BF515D7BAE2226A22F898429C8B /* NCMB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NCMB/NCMB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
-				PRODUCT_MODULE_NAME = NCMB;
-				PRODUCT_NAME = NCMB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5840B3887798C985FEA310FF72431D53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65328ACACE950CDB36E2F3C7EEC650AC /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5F3B940D85A846357192B125DA683616 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AAE11DF3DBFE52FD38F3BD3D6662ED0 /* SPAlert.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SPAlert/SPAlert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SPAlert/SPAlert-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SPAlert/SPAlert.modulemap";
-				PRODUCT_MODULE_NAME = SPAlert;
-				PRODUCT_NAME = SPAlert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A0361B901C9C04B79371C9B289F22DBA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11CF4BF515D7BAE2226A22F898429C8B /* NCMB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NCMB/NCMB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
-				PRODUCT_MODULE_NAME = NCMB;
-				PRODUCT_NAME = NCMB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A04A215AB4F7A2D78869D9919F3BA4CB /* Debug */ = {
+		01D8DE383CD062E7849270DCA5E31DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEFCA33D9CD95463585F339EE43BACE7 /* Pods-NCMBMemo.debug.xcconfig */;
 			buildSettings = {
@@ -1368,7 +1098,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1389,9 +1119,80 @@
 			};
 			name = Debug;
 		};
-		A5C817F83FFA5F2778AD9A0A966F4BFD /* Debug */ = {
+		0CA7A93D3660CA70189B2660B4AB2BC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B4E2360BA78173491DD69365E0DFAA4 /* TransitionButton.xcconfig */;
+			baseConfigurationReference = E27766F7D2D5AAC8B18785410F346905 /* NCMB.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCMB/NCMB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
+				PRODUCT_MODULE_NAME = NCMB;
+				PRODUCT_NAME = NCMB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FD2F5F2105A941B7079447223575EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D031DD7F83B480421E7DFAD0B17CA90 /* SPAlert.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPAlert/SPAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPAlert/SPAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPAlert/SPAlert.modulemap";
+				PRODUCT_MODULE_NAME = SPAlert;
+				PRODUCT_NAME = SPAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55DA684E2182159F1E267F72B1F74AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BE6FA530536BC32779A9B7079D774B /* TransitionButton.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1424,9 +1225,44 @@
 			};
 			name = Debug;
 		};
-		A9F912FF9E6B66D3E6B5A0BF42DA47DC /* Release */ = {
+		593013A6CFFF8786B40CB26D67E36549 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65328ACACE950CDB36E2F3C7EEC650AC /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = 56110E01BCD3215EC085BB53136EAEAE /* SVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E8CA0549B46F8B6DAE3A5FF4663E64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD294E313B773C909E89B1237FBB5BFE /* SVProgressHUD.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1460,7 +1296,7 @@
 			};
 			name = Release;
 		};
-		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1511,7 +1347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1524,9 +1360,48 @@
 			};
 			name = Debug;
 		};
-		F4B1F5826D65B4FABC3B85C3DE00091E /* Release */ = {
+		CFD2F9C67C24E608660D317CA37F9C5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B4E2360BA78173491DD69365E0DFAA4 /* TransitionButton.xcconfig */;
+			baseConfigurationReference = 897BB0F1917CE9659BA6F71DAA0FB412 /* Pods-NCMBMemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1CA1EA46913E92F113733AB4B1938B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995B2331D1B78D3C09EEFFBB272AA499 /* TransitionButton.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1560,14 +1435,147 @@
 			};
 			name = Release;
 		};
+		D65124A0797FF058095CDEB6BF022D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3707809B86F226F1FBCD2C0D09215882 /* SPAlert.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPAlert/SPAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPAlert/SPAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPAlert/SPAlert.modulemap";
+				PRODUCT_MODULE_NAME = SPAlert;
+				PRODUCT_NAME = SPAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC727A43436B40CF49CCC8BA5C8B6E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E3228BD1037122F40C7B21DC45004F /* NCMB.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCMB/NCMB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
+				PRODUCT_MODULE_NAME = NCMB;
+				PRODUCT_NAME = NCMB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0C6C59D404DDBAFD4B5120141C22D8FA /* Build configuration list for PBXNativeTarget "TransitionButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5C817F83FFA5F2778AD9A0A966F4BFD /* Debug */,
-				F4B1F5826D65B4FABC3B85C3DE00091E /* Release */,
+				55DA684E2182159F1E267F72B1F74AE2 /* Debug */,
+				D1CA1EA46913E92F113733AB4B1938B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1575,8 +1583,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
-				1422B121EAEAEA11307496903FA623C6 /* Release */,
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1584,8 +1592,8 @@
 		5250C5988442D8FF5D37097E89BE488B /* Build configuration list for PBXNativeTarget "NCMB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0361B901C9C04B79371C9B289F22DBA /* Debug */,
-				28C23F839F08DF520D1306007AE39E30 /* Release */,
+				0CA7A93D3660CA70189B2660B4AB2BC9 /* Debug */,
+				EC727A43436B40CF49CCC8BA5C8B6E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1593,8 +1601,8 @@
 		9F35B89C33482B95A50D35C9AA3A1737 /* Build configuration list for PBXNativeTarget "SPAlert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F3B940D85A846357192B125DA683616 /* Debug */,
-				210AF6AAC6F96497B4F9321E859A23DC /* Release */,
+				0FD2F5F2105A941B7079447223575EE9 /* Debug */,
+				D65124A0797FF058095CDEB6BF022D2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1602,8 +1610,8 @@
 		C23B66EC3D8A9C6FB4D28BEE971AA857 /* Build configuration list for PBXNativeTarget "Pods-NCMBMemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A04A215AB4F7A2D78869D9919F3BA4CB /* Debug */,
-				093BF286411A787ACB2ADC9A94510F26 /* Release */,
+				01D8DE383CD062E7849270DCA5E31DA7 /* Debug */,
+				CFD2F9C67C24E608660D317CA37F9C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1611,8 +1619,8 @@
 		E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5840B3887798C985FEA310FF72431D53 /* Debug */,
-				A9F912FF9E6B66D3E6B5A0BF42DA47DC /* Release */,
+				593013A6CFFF8786B40CB26D67E36549 /* Debug */,
+				5E8CA0549B46F8B6DAE3A5FF4663E64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

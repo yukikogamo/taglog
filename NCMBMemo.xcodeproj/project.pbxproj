@@ -52,7 +52,7 @@
 		9B1C88E882EEF2B2C76F1238 /* Pods-NCMBMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBMemo.release.xcconfig"; path = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo.release.xcconfig"; sourceTree = "<group>"; };
 		AD119EF69B28CDA991C5DCB7 /* Pods-NCMBMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBMemo.debug.xcconfig"; path = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D805C0F223CC6FD10079E5FD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		D807E96F237DB795004198D7 /* NCMBMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCMBMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D807E96F237DB795004198D7 /* Taglog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taglog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D807E972237DB796004198D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D807E974237DB796004198D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D807E979237DB796004198D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		D807E970237DB795004198D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D807E96F237DB795004198D7 /* NCMBMemo.app */,
+				D807E96F237DB795004198D7 /* Taglog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			path = NCMBMemo;
 			sourceTree = "<group>";
 		};
-		D8518A7E23C07ADD0023F58A /* Assets */ = {
+		D89E85F523D8778C000B5DAA /* ios */ = {
 			isa = PBXGroup;
 			children = (
 				D89E859723CC7EAE000B5DAA /* plus.png */,
@@ -159,14 +159,6 @@
 				D8518A8123C07BE20023F58A /* submit.png */,
 				D89E859923D86A6C000B5DAA /* logo.png */,
 				D8518A8323C2C80A0023F58A /* tag.png */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		D89E85F523D8778C000B5DAA /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				D8518A7E23C07ADD0023F58A /* Assets */,
 				D89E85F723D8778C000B5DAA /* AppIcon.appiconset */,
 				D89E85F623D8778C000B5DAA /* iTunesArtwork@1x.png */,
 				D89E860923D8778C000B5DAA /* iTunesArtwork@2x.png */,
@@ -251,7 +243,7 @@
 			);
 			name = NCMBMemo;
 			productName = NCMBMemo;
-			productReference = D807E96F237DB795004198D7 /* NCMBMemo.app */;
+			productReference = D807E96F237DB795004198D7 /* Taglog.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -526,14 +518,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6SL49V4SU8;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 939YVKTKUP;
 				INFOPLIST_FILE = NCMBMemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.NCMBMemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.Taglog;
+				PRODUCT_NAME = Taglog;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -545,14 +540,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6SL49V4SU8;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 939YVKTKUP;
 				INFOPLIST_FILE = NCMBMemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.NCMBMemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.Taglog;
+				PRODUCT_NAME = Taglog;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

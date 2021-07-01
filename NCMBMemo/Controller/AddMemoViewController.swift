@@ -56,7 +56,6 @@ class AddMemoViewController: UIViewController {
             oishiibutton.setBackgroundImage(image, for: state)
             oishiinum = 0
         }else{
-            print("あ")
             //押されてる時の画像青
             let image = UIImage(named: "button2.png")
             let state = UIControl.State.normal
@@ -70,7 +69,6 @@ class AddMemoViewController: UIViewController {
         number = number + 1.0
         
         tanoshiinum = tanoshiinum + 1
-        print("楽しいが押された")
         if tanoshiinum % 2 == 0{
                     //通常の画像赤
                     let image = UIImage(named: "button.png")
@@ -96,7 +94,7 @@ class AddMemoViewController: UIViewController {
         number = number - 0.5
         
         kanasiinum = kanasiinum + 1
-        print("悲しいが押された")
+        
         if kanasiinum % 2 == 0{
                     //通常の画像赤
                     let image = UIImage(named: "button.png")
@@ -122,7 +120,7 @@ class AddMemoViewController: UIViewController {
         number = number + 0.8
         
         uresiinum = uresiinum + 1
-        print("うれしいが押された")
+        
         if uresiinum % 2 == 0{
                     //通常の画像赤
                     let image = UIImage(named: "button.png")
@@ -147,7 +145,7 @@ class AddMemoViewController: UIViewController {
         number = number - 0.8
         
         turainum = turainum + 1
-        print("つらいが押された")
+        
         if turainum % 2 == 0{
                     //通常の画像赤
                     let image = UIImage(named: "button.png")
@@ -172,7 +170,7 @@ class AddMemoViewController: UIViewController {
         number = number - 1.0
         
         samisiinum = samisiinum + 1
-        print("さみしいが押された")
+        
         if samisiinum % 2 == 0{
                     //通常の画像赤
                     let image = UIImage(named: "button.png")
@@ -197,7 +195,7 @@ class AddMemoViewController: UIViewController {
         number = number + 1.2
         
         omoroinum = omoroinum + 1
-        print("おもろいが押された")
+        
         if omoroinum % 2 == 0{
                     //通常の画像赤
                     let image = UIImage(named: "button.png")
@@ -222,7 +220,7 @@ class AddMemoViewController: UIViewController {
         number = number - 0.5
         
         tukaretanum = tukaretanum + 1
-        print("つかれたが押された")
+        
         if tukaretanum % 2 == 0{
                     //通常の画像赤
                     let image = UIImage(named: "button.png")
@@ -247,17 +245,17 @@ class AddMemoViewController: UIViewController {
         number = number - 0.1
         
         nemuinum = nemuinum + 1
-        print("ねむいが押された")
-        if nemuinum % 2 == 0{
-                    //通常の画像赤
-                    let image = UIImage(named: "button.png")
-                    let state = UIControl.State.normal
+        
+        if nemuinum % 2 == 0 {
+            //通常の画像赤
+            let image = UIImage(named: "button.png")
+            let state = UIControl.State.normal
 
          
             nemuibutton.setBackgroundImage(image, for: state)
              nemuibutton.titleLabel?.text = "ねむい"
                     nemuinum = 0
-                }else{
+                } else {
                     //押されてる時の画像青
                     let image = UIImage(named: "button2.png")
                     let state = UIControl.State.normal
@@ -266,7 +264,7 @@ class AddMemoViewController: UIViewController {
                     nemuinum == nemuinum
              nemuibutton.titleLabel?.text = "ねむい"
                 }
-    }
+        }
     
     @IBAction func post() {
         if number <= 0 {

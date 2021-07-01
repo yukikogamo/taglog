@@ -34,7 +34,6 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func signIn() {
         
-        print("aaaaa")
         if (userIdTextField.text?.count)! > 0 && (passwordTextField.text?.count)! > 0 {
             
             NCMBUser.logInWithUsername(inBackground: userIdTextField.text!, password: passwordTextField.text!) { (user, error) in
